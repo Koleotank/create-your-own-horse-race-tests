@@ -23,7 +23,7 @@ draw_set_valign(fa_top)
 func_draw_text_ext_transformed_outline(screencenterx, screencentery+75,string_hash_to_newline("Horse Race Tests by Blake Andrews#CYOHRT Engine by mr_guym#Classic Map Music by Anibal Bley#Horses Tambourine & HRTTHRT Credits Music by Lilliyan Ling#Victory Jingles by lexycat#Extracted Sprites/Sprite Recreations by ArcadeT6#Map Music Remakes by Grander"),22,500,1,1,0,c_white,c_black,1)
 draw_set_halign(fa_left)
 draw_set_valign(fa_bottom)
-func_draw_text_ext_transformed_outline(2,screencentery*2,string_hash_to_newline("v1.1"),22,500,1,1,0,c_white,c_black,1)
+func_draw_text_ext_transformed_outline(2,screencentery*2,string_hash_to_newline("v1.1 (wip)"),22,500,1,1,0,c_white,c_black,1)
 //
 
 

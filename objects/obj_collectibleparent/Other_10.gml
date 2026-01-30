@@ -20,14 +20,14 @@ if place_meeting(x,y,obj_collectibleparent)
 	func_anticollisionclipping(obj_collectibleparent)
 }
 
-if place_meeting(x+hsp,y+vsp,obj_mapparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_mapparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_mapparent)
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
 }
-if place_meeting(x+hsp,y+vsp,obj_collectibleparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_collectibleparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_collectibleparent)
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_collectibleparent)
 	func_performknockback(_collidingobject)
 }
 

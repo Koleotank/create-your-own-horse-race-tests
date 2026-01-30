@@ -4,26 +4,6 @@
 x += hsp
 y += vsp
 
-/*
-if x + hsp >= room_width
-{
-	hsp = abs(hsp)*-1 
-}
-if x + hsp <= 0
-{
-	hsp = abs(hsp)
-}
-
-if y + vsp >= room_height
-{
-	vsp = abs(vsp)*-1 
-}
-if y + vsp <= 0
-{
-	vsp = abs(vsp)
-}
-*/
-
 hsp = median(hsp-hspacc,targethsp,hsp+hspacc)
 vsp = median(vsp-vspacc,targetvsp,vsp+vspacc)
 

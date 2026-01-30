@@ -28,15 +28,15 @@ if place_meeting(x,y,obj_horseparent)
 	func_ballpass(_collidingobject)
 }
 
-if place_meeting(x+hsp,y+vsp,obj_mapparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_mapparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_mapparent)
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
 }
 
-if place_meeting(x+hsp,y+vsp,obj_horseparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	var _oldhsp = hsp
 	//func_performknockback(_collidingobject)
 	func_performcollision(_collidingobject)
@@ -46,11 +46,8 @@ if place_meeting(x,y,obj_hoop) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_
 {
 	audio_play_sound(winsound,20,false)
 	global.LASTPLAYEDWINSOUND = winsound
-	/*
-	var _wineffect = instance_create_depth(x,y,0,obj_horsewineffect)
-	_wineffect.sprite_index = sprite_index
-	*/
-	global.REMAINING_WIN_SLOTS = 0
+	//global.REMAINING_WIN_SLOTS = 0
+	global.REMAINING_WIN_SLOTS--
 	if global.REMAINING_WIN_SLOTS <= 0 
 	{
 		if array_length(global.WINNERS_LIST) > 0
@@ -60,20 +57,40 @@ if place_meeting(x,y,obj_hoop) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_
 	if array_length(global.WINNERS_LIST) <= 0
 		global.WINJINGLE = winjingle
 	array_insert(global.WINNERS_LIST,array_length(global.WINNERS_LIST),currentpass)
-	/*
-	var _winninghorse = instance_create_depth(x,y,0,obj_winninghorse)
-	_winninghorse.sprite_index = winsprite
-	_winninghorse.winplacement = array_length(global.WINNERS_LIST)
-	_winninghorse.hsp = clamp(hsp,_winninghorse.maxhsp*-1.25,_winninghorse.maxhsp*1.25)
-	_winninghorse.vsp = clamp(vsp,_winninghorse.maxvsp*-1.25,_winninghorse.maxvsp*1.25)
-	*/
-	var _targetgoal = instance_place(x,y,obj_hoop)
-	if _targetgoal != -4
+	if instance_exists(obj_horseparent)
 	{
-		//_winninghorse.targetgoal = _targetgoal
-		global.CAM_TARGET_GOAL = _targetgoal
+		for (var _i=0; _i<instance_number(obj_horseparent); _i++)
+		{
+		    var _honse = instance_find(obj_horseparent,_i)
+			if _honse.horseidentity == currentpass
+			{
+				var _wineffect = instance_create_depth(_honse.x,_honse.y,0,obj_horsewineffect)
+				_wineffect.sprite_index = _honse.sprite_index
+				var _winninghorse = instance_create_depth(_honse.x,_honse.y,0,obj_winninghorse)
+				_winninghorse.sprite_index = _honse.winsprite
+				_winninghorse.winplacement = array_length(global.WINNERS_LIST)
+				_winninghorse.hsp = clamp(_honse.hsp,_winninghorse.maxhsp*-1.25,_winninghorse.maxhsp*1.25)
+				_winninghorse.vsp = clamp(_honse.vsp,_winninghorse.maxvsp*-1.25,_winninghorse.maxvsp*1.25)
+				var _targetgoal = instance_place(x,y,obj_hoop)
+				if _targetgoal != noone
+				{
+					_winninghorse.targetgoal = _targetgoal
+					global.CAM_TARGET_GOAL = _targetgoal
+				}
+				else
+					instance_destroy(_winninghorse)
+				instance_destroy(_honse)
+			}
+		}
 	}
-	//instance_destroy()
+	if global.REMAINING_WIN_SLOTS > 0
+	{
+		x = xstart
+		y = ystart
+		defaultmovespeed = 0
+		currentmovespeed = 0
+		acceleration = 0
+	}
 }
 targetangle = func_fixangle(targetangle)
 targetangle = round(targetangle)

@@ -32,18 +32,18 @@ if disappearing == false
 	{
 		func_anticollisionclipping(obj_horseparent)
 	}
-	if place_meeting(x+hsp,y+vsp,obj_mapparent)
+	if place_meeting(x+sign(hsp),y+sign(vsp),obj_mapparent)
 	{
-		var _collidingobject = instance_place(x+hsp,y+vsp,obj_mapparent)
+		var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_mapparent)
 		func_performknockback(_collidingobject)
 		//func_surfacebounce()
 		grav = 0
 		acceleration = 0
 		percievedangle = targetangle
 	}
-	if place_meeting(x+hsp,y+vsp,obj_horseparent)
+	if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	{
-		var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
+		var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
 		/*
 		if room == rm_open && _collidingobject.object_index == obj_horse_pink
 		{

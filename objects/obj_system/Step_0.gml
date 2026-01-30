@@ -173,8 +173,10 @@ switch global.GAME_STATE
 		    {
 		        var _honse = instance_find(obj_horseparent,_i)
 				if _honse.losesprite != -1
-				_honse.sprite_index = _honse.losesprite
-				_honse.eyesprite = spr_null
+				{
+					_honse.sprite_index = _honse.losesprite
+					_honse.eyesprite = spr_null
+				}
 		    }
 		}
 		audio_stop_sound(global.MUSIC_TRACK)

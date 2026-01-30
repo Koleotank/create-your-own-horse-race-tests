@@ -9,6 +9,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 	overtimemaxacceleration = 6 //the maximum amount of overtime acceleration speed this horse can have
 	//unlike acceleration, overtime acceleration stays persistent between bounces,
 	//and serves to gradually make all the horses faster if the race takes too long
+	moveangleincrement = 16 //the amount of angles this horse is allowed to move (for pre v1.1 movement, set this to 360)
+	//min = 1, max = 360
 	
 	knockbackintensity = 1 //how strong this horse's knockback is when bumping into other horses
 	knockbackresistance = 0.5 //how resistant this horse is to knockback from other horses
@@ -20,9 +22,14 @@ function scr_horse_stats(_givenidentity,_room=room)
 	//and the angleincrement is multiplied by that number and added to the horse's angle.
 	//a wider range allows for more drastic random direction changes
 	anglechangechance = 3 //how likely the horse's angle is to be randomized on every bounce.
-	//higher number = lower chance, lower number = higher chance, 0 = 100% chance, -1 = 0% chance
+	//higher number = lower chance, lower number (down to 0) = higher chance, 0 = 100% chance, -1 = 0% chance
 	
+	eyeframeamount = 16 //the amount of eye frames this horse has (set this to 8 if you used the oc submissions template)
 	spritemergedwitheyedirection = false //set this to true if the horse's eye directions are merged with the main sprite
+	eyedirectionsmoveclockwise = false //set this to true if this horse's eye directions rotate clockwise
+	//(or if you used the oc submissions template for the sprite)
+	firsteyeframe = 0 //determines which frame the eye direction starts at. this should always be set to the eye frame
+	//that points east/right, which is 0 most of the time (set this to 2 if you used the oc submissions template)
 	hasdasheffect = true //set this to true if you want your horse to have a special effect when moving at high speeds
 	canxscaleflip = false //set this to true if you want your horse to flip like the fishes in paradise fishing.
 	//eye directions may look off if this setting is enabled
@@ -530,6 +537,27 @@ function scr_horse_stats(_givenidentity,_room=room)
 			accelerationamount = 0.02
 			maxacceleration = 6
 			
+			bodycolor = make_color_rgb(135,135,195)
+			eyesprite = spr_horse_exemplaryproduct_eyes
+			winsprite = spr_horse_exemplaryproduct_win
+			losesprite = spr_horse_exemplaryproduct_lose
+			portraitsprite = spr_horseportrait_exemplaryproduct
+			winjingle = sfx_winjingle_exemplaryproduct
+			jinglelength = func_secondstoframes(6.5)
+		}
+		break
+		case "Self Explanatory Business":
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(155,173,183)
+		}
+		break
+		case "Just One More Sample":
+		{
 			bodycolor = make_color_rgb(135,135,195)
 			eyesprite = spr_horse_exemplaryproduct_eyes
 			winsprite = spr_horse_exemplaryproduct_win

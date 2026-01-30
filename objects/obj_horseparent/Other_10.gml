@@ -47,29 +47,16 @@ if place_meeting(x,y,obj_horseparent)
 	//show_debug_message("stuck inside horse, performing anti collision clip")
 	func_anticollisionclipping(obj_horseparent)
 }
-if place_meeting(x+hsp,y+vsp,obj_mapparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_mapparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_mapparent)
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
 }
 
-if place_meeting(x+hsp,y+vsp,obj_horseparent)
+if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
-	var _oldhsp = hsp
+	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	func_performknockback(_collidingobject)
-	//targetangle = point_direction(x,y,x+(_collidingobject.hsp),y+vsp)
-	//targetangle = point_direction(x,y,x+(hsp*-1),y+vsp)
-	/*
-	with _collidingobject
-	{
-		//targetangle = point_direction(x,y,x+(_oldhsp),y+vsp)
-		targetangle = point_direction(x,y,x+(hsp*-1),y+vsp)
-		acceleration = 0
-		func_updatespeed()
-		func_randomdirectionchange()
-	}
-	*/
 }
 if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {
@@ -100,7 +87,7 @@ if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_
 		_winninghorse.hsp = clamp(hsp,_winninghorse.maxhsp*-1.25,_winninghorse.maxhsp*1.25)
 		_winninghorse.vsp = clamp(vsp,_winninghorse.maxvsp*-1.25,_winninghorse.maxvsp*1.25)
 		var _targetgoal = instance_place(x,y,obj_goal)
-		if _targetgoal != -4
+		if _targetgoal != noone
 		{
 			_winninghorse.targetgoal = _targetgoal
 			global.CAM_TARGET_GOAL = _targetgoal
@@ -132,8 +119,24 @@ if place_meeting(x,y,obj_hook) && global.GAME_STATE = "normal"
 	}
 }
 targetangle = func_fixangle(targetangle)
-targetangle = round(targetangle)
-eyeframe = round(targetangle/22.5)
+targetangle = round(targetangle/(360/moveangleincrement))*(360/moveangleincrement)
+eyeframe = round(targetangle/(360/eyeframeamount))+firsteyeframe
+if eyedirectionsmoveclockwise == true
+{
+	eyeframe -= firsteyeframe
+	var _reversedframe = 0
+	if eyeframe != 0
+		_reversedframe = eyeframeamount-eyeframe
+	eyeframe = _reversedframe+firsteyeframe
+	while eyeframe < 0
+	{
+		eyeframe += eyeframeamount
+	}
+	while eyeframe >= eyeframeamount
+	{
+		eyeframe -= eyeframeamount
+	}
+}
 if canxscaleflip == true
 {
 	if sign(hsp) != 0
