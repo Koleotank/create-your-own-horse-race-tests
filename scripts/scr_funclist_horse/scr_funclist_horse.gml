@@ -5,7 +5,7 @@ function func_updatespeed()
 }
 function func_ballpass(_checkforhorse)
 {
-	if _checkforhorse.object_index == obj_horseparent || object_get_parent(_checkforhorse.object_index) == obj_horseparent || _checkforhorse.object_index == obj_collectibleparent || object_get_parent(_checkforhorse.object_index) == obj_collectibleparent
+	if _checkforhorse.object_index == obj_horseparent || object_get_parent(_checkforhorse.object_index) == obj_horseparent || _checkforhorse.object_index == obj_horseparent_ul || object_get_parent(_checkforhorse.object_index) == obj_horseparent_ul || _checkforhorse.object_index == obj_collectibleparent || object_get_parent(_checkforhorse.object_index) == obj_collectibleparent
 	{
 		currentpass = _checkforhorse.horseidentity
 		bodycolor = _checkforhorse.bodycolor
@@ -24,7 +24,7 @@ function func_performcollision(_checkforhorse=obj_mapparent)
 		{
 			func_playstepsound(customstepsound,stepsoundcooldown)
 			stepsoundcooldown = 2
-			if _checkforhorse.object_index == obj_horseparent || object_get_parent(_checkforhorse.object_index) == obj_horseparent
+			if _checkforhorse.object_index == obj_horseparent || object_get_parent(_checkforhorse.object_index) == obj_horseparent || _checkforhorse.object_index == obj_horseparent_ul || object_get_parent(_checkforhorse.object_index) == obj_horseparent_ul
 			{
 				func_ballpass(_checkforhorse)
 				acceleration = clamp(acceleration+accelerationamount,0,maxacceleration)
@@ -44,7 +44,7 @@ function func_performcollision(_checkforhorse=obj_mapparent)
 				func_ballpass(other.id)
 			}
 		}
-		if object_index == obj_horseparent || object_get_parent(object_index) == obj_horseparent || object_index == obj_collectibleparent || object_get_parent(object_index) == obj_collectibleparent
+		if object_index == obj_horseparent || object_get_parent(object_index) == obj_horseparent || object_index == obj_collectibleparent || object_get_parent(object_index) == obj_collectibleparent || _checkforhorse.object_index == obj_horseparent_ul || object_get_parent(_checkforhorse.object_index) == obj_horseparent_ul
 		{
 			/*
 			if _checkforhorse == true
@@ -56,7 +56,7 @@ function func_performcollision(_checkforhorse=obj_mapparent)
 				_effect.image_angle = targetangle+180
 			}
 			*/
-			if _checkforhorse == obj_horseparent || object_get_parent(_checkforhorse) == obj_horseparent
+			if _checkforhorse == obj_horseparent || object_get_parent(_checkforhorse) == obj_horseparent || _checkforhorse.object_index == obj_horseparent_ul || object_get_parent(_checkforhorse.object_index) == obj_horseparent_ul
 			{
 				//func_playcollidesound()
 				func_playstepsound(customhorsecollidesound,collidesoundcooldown)
@@ -88,6 +88,10 @@ function func_randomdirectionchange()
 		//while func_solidcheck(x+lengthdir_x(currentmovespeed,targetangle),y+lengthdir_y(currentmovespeed,targetangle))
 		while func_placemeetingalt(x+lengthdir_x(currentmovespeed,targetangle),y+lengthdir_y(currentmovespeed,targetangle),obj_mapparent) &&
 		func_placemeetingalt(x+lengthdir_x(currentmovespeed,targetangle),y+lengthdir_y(currentmovespeed,targetangle),obj_horseparent)
+		{
+			targetangle += angleincrement*_incrementdirection
+		}
+		func_placemeetingalt(x+lengthdir_x(currentmovespeed,targetangle),y+lengthdir_y(currentmovespeed,targetangle),obj_horseparent_ul)
 		{
 			targetangle += angleincrement*_incrementdirection
 		}
@@ -308,7 +312,8 @@ function func_anticollisionclipping(_objecttocheckfor)
 		*/
 		if !func_placemeetingalt(x+lengthdir_x(_distancetoadd,targetangle+_angletoadd),y+lengthdir_y(_distancetoadd,targetangle+_angletoadd),_objecttocheckfor) &&
 		!func_placemeetingalt(x+lengthdir_x(_distancetoadd,targetangle+_angletoadd),y+lengthdir_y(_distancetoadd,targetangle+_angletoadd),obj_mapparent) &&
-		!func_placemeetingalt(x+lengthdir_x(_distancetoadd,targetangle+_angletoadd),y+lengthdir_y(_distancetoadd,targetangle+_angletoadd),obj_horseparent)
+		!func_placemeetingalt(x+lengthdir_x(_distancetoadd,targetangle+_angletoadd),y+lengthdir_y(_distancetoadd,targetangle+_angletoadd),obj_horseparent) &&
+		!func_placemeetingalt(x+lengthdir_x(_distancetoadd,targetangle+_angletoadd),y+lengthdir_y(_distancetoadd,targetangle+_angletoadd),obj_horseparent_ul)
 		{
 			_anticollisioncheckloop = false
 			break; //sometimes the loop fails to end without a break???
