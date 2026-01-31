@@ -379,7 +379,7 @@ function func_playstepsound(_sound,_cooldown)
 	{
 		audio_stop_sound(_sound)
 		var _newstepsound = audio_play_sound(_sound,10,false)
-		audio_sound_pitch(_newstepsound,random_range(0.8,1.2))
+		audio_sound_pitch(_newstepsound,random_range(1-soundvariance,1+soundvariance))
 	}
 }
 /*

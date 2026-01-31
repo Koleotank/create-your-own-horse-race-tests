@@ -51,6 +51,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 	
 	hiddenindarkness = false
 	
+	soundvariance = 0.2
+	
 	switch _givenidentity
 	{
 		case "Superstitional Realism":

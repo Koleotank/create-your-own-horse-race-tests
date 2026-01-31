@@ -172,6 +172,7 @@
     {"name":"rm_winnersingle","order":5,"path":"rooms/rm_winnersingle/rm_winnersingle.yy",},
     {"name":"scr_funclist_general","order":2,"path":"scripts/scr_funclist_general/scr_funclist_general.yy",},
     {"name":"scr_funclist_horse","order":1,"path":"scripts/scr_funclist_horse/scr_funclist_horse.yy",},
+    {"name":"scr_horse_stat_init","order":6,"path":"scripts/scr_horse_stat_init/scr_horse_stat_init.yy",},
     {"name":"scr_horse_stats","order":4,"path":"scripts/scr_horse_stats/scr_horse_stats.yy",},
     {"name":"scr_map_settings","order":5,"path":"scripts/scr_map_settings/scr_map_settings.yy",},
     {"name":"scr_step","order":3,"path":"scripts/scr_step/scr_step.yy",},
