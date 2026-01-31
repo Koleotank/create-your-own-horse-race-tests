@@ -126,7 +126,6 @@
     {"id":{"name":"obj_horse_white","path":"objects/obj_horse_white/obj_horse_white.yy",},},
     {"id":{"name":"obj_horse_yellow","path":"objects/obj_horse_yellow/obj_horse_yellow.yy",},},
     {"id":{"name":"obj_horsedeatheffect","path":"objects/obj_horsedeatheffect/obj_horsedeatheffect.yy",},},
-    {"id":{"name":"obj_horseparent_ul","path":"objects/obj_horseparent_ul/obj_horseparent_ul.yy",},},
     {"id":{"name":"obj_horseparent","path":"objects/obj_horseparent/obj_horseparent.yy",},},
     {"id":{"name":"obj_horsewineffect","path":"objects/obj_horsewineffect/obj_horsewineffect.yy",},},
     {"id":{"name":"obj_improvisedwall","path":"objects/obj_improvisedwall/obj_improvisedwall.yy",},},

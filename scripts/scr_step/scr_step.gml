@@ -23,14 +23,6 @@ function scr_step()
 			event_user(0)
 		}
 	}
-	with obj_horseparent_ul
-	{
-		if global.GAME_STATE == "normal"
-		{
-			hasdonecollisionthisframe = false
-			event_user(0)
-		}
-	}
 	with obj_collectibleparent
 	{
 		if global.GAME_STATE == "normal"
