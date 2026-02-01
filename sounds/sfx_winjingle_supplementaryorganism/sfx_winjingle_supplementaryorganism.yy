@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_winjingle_supplementaryorganism",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.4615874,
+  "exportDir":"",
+  "name":"sfx_winjingle_supplementaryorganism",
+  "parent":{
+    "name":"win_jingles",
+    "path":"folders/Sounds/universe l/win_jingles.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_winjingle_supplementaryorganism.wav",
+  "volume":0.8,
+}

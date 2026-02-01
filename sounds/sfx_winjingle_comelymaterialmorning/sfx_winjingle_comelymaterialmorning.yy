@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.530612,
+  "duration":6.485011,
   "exportDir":"",
   "name":"sfx_winjingle_comelymaterialmorning",
   "parent":{

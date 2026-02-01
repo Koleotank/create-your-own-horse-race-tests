@@ -7,6 +7,8 @@ func_collisioninit_pointdir()
 horseidentity = "Ball"
 currentpass = "Default Dearly"
 
+soundvariance = 0.05
+
 currentmovespeed = 0
 //targetangle = -22.5
 targetangle = random_range(0,359)
@@ -46,7 +48,7 @@ afterimagecooldown = 0
 dashlinecooldown = 0
 
 bodycolor = make_color_rgb(243,119,0)
-customstepsound = sfx_ball
+customstepsound = sfx_ball_ul
 customhorsecollidesound = sfx_horsecollide
 eyesprite = spr_null
 winsprite = spr_ball

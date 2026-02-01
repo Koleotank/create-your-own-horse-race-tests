@@ -766,5 +766,23 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.6)
 		}
 		break
+		case "Supplementary Organism":
+		{
+			defaultmovespeed = 0.3
+			overtimeaccelerationamount = 1/func_minutestoframes(1)
+			accelerationamount = 0.05
+			maxacceleration = 3
+			anglechangechance = 60
+			hasdasheffect = false
+			
+			customhorsecollidesound = sfx_hit_ul
+			bodycolor = make_color_rgb(117,242,106)
+			eyesprite = spr_horse_supplementaryorganism_eyes
+			winsprite = -1
+			portraitsprite = spr_horseportrait_defaultdearly
+			winjingle = sfx_winjingle_supplementaryorganism
+			jinglelength = func_secondstoframes(5.987)
+		}
+		break
 	}
 }
