@@ -69,8 +69,8 @@ if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_
 	{
 		audio_play_sound(winsound,20,false)
 		global.LASTPLAYEDWINSOUND = winsound
-		var _wineffect = instance_create_depth(x,y,0,obj_horsewineffect)
-		_wineffect.sprite_index = sprite_index
+		//var _wineffect = instance_create_depth(x,y,0,obj_horsewineffect)
+		//_wineffect.sprite_index = sprite_index
 		global.REMAINING_WIN_SLOTS--
 		if global.REMAINING_WIN_SLOTS <= 0 
 		{

@@ -30,8 +30,8 @@ switch winplacement
 	break
 }
 */
-func_draw_text_ext_transformed_outline(x,y+16,func_getplacementstring(winplacement),22,500,1,1,0,c_yellow,c_black,1)
-func_draw_text_ext_transformed_outline(x,y+32,wintimetext,22,500,1,1,0,c_yellow,c_black,1)
+//func_draw_text_ext_transformed_outline(x,y+16,func_getplacementstring(winplacement),22,500,1,1,0,c_yellow,c_black,1)
+//func_draw_text_ext_transformed_outline(x,y+32,wintimetext,22,500,1,1,0,c_yellow,c_black,1)
 draw_set_color(c_white)
 
 

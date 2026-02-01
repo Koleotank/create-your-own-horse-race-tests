@@ -64,8 +64,8 @@ if place_meeting(x,y,obj_hoop) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_
 		    var _honse = instance_find(obj_horseparent,_i)
 			if _honse.horseidentity == currentpass
 			{
-				var _wineffect = instance_create_depth(_honse.x,_honse.y,0,obj_horsewineffect)
-				_wineffect.sprite_index = _honse.sprite_index
+				//var _wineffect = instance_create_depth(_honse.x,_honse.y,0,obj_horsewineffect)
+				//_wineffect.sprite_index = _honse.sprite_index
 				var _winninghorse = instance_create_depth(_honse.x,_honse.y,0,obj_winninghorse)
 				_winninghorse.sprite_index = _honse.winsprite
 				_winninghorse.winplacement = array_length(global.WINNERS_LIST)
