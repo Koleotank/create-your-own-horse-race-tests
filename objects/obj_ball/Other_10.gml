@@ -15,6 +15,8 @@ if stepsoundcooldown > 0
 if place_meeting(x,y,obj_mapparent)
 {
 	//show_debug_message("stuck inside solid, performing anti collision clip")
+	var _collidingobject = instance_place(x,y,obj_mapparent)
+	func_performknockback(_collidingobject)
 	func_anticollisionclipping(obj_mapparent)
 }
 if place_meeting(x,y,obj_horseparent)
@@ -42,6 +44,36 @@ if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	func_performcollision(_collidingobject)
 	func_ballpass(_collidingobject)
 }
+/*
+if place_meeting(x+hsp,y,obj_mapparent)
+{
+	var _collidingobject = instance_place(x+hsp,y,obj_mapparent)
+	func_performknockback(_collidingobject)
+}
+if place_meeting(x,y+vsp,obj_mapparent)
+{
+	var _collidingobject = instance_place(x,y+vsp,obj_mapparent)
+	func_performknockback(_collidingobject)
+}
+*/
+
+if place_meeting(x+hsp,y,obj_horseparent)
+{
+	var _collidingobject = instance_place(x+hsp,y,obj_horseparent)
+	var _oldhsp = hsp
+	//func_performknockback(_collidingobject)
+	func_performcollision(_collidingobject)
+	func_ballpass(_collidingobject)
+}
+if place_meeting(x,y+vsp,obj_horseparent)
+{
+	var _collidingobject = instance_place(x,y+vsp,obj_horseparent)
+	var _oldvsp = vsp
+	//func_performknockback(_collidingobject)
+	func_performcollision(_collidingobject)
+	func_ballpass(_collidingobject)
+}
+
 if place_meeting(x,y,obj_hoop) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {
 	audio_play_sound(winsound,20,false)

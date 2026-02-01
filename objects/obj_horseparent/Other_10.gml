@@ -58,6 +58,7 @@ if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
 	func_performknockback(_collidingobject)
 }
+
 if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {
 	if object_index == obj_horse_shitass
