@@ -65,7 +65,7 @@ hiddenindarkness = false
 outlinesprite = spr_ball_outline
 coloringsprite = spr_ball_coloring
 
-if room == rm_open {
+if scr_compare(room, rm_open, rm_litmus1) == true {
 	customstepsound = sfx_ball_ul
 	soundvariance = 0.05
 	defaultmovespeed = 0

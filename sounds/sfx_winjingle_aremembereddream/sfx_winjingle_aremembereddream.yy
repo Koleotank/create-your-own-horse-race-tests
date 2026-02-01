@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_winjingle_aremembereddream",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.458685,
+  "exportDir":"",
+  "name":"sfx_winjingle_aremembereddream",
+  "parent":{
+    "name":"win_jingles",
+    "path":"folders/Sounds/universe l/win_jingles.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_winjingle_aremembereddream.wav",
+  "volume":0.8,
+}

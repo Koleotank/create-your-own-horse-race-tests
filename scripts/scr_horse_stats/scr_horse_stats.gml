@@ -787,5 +787,50 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(5.987)
 		}
 		break
+		case "Prototype 00E":
+		{
+			overtimeaccelerationamount = 1/func_minutestoframes(2)
+			hasdasheffect = false
+			
+			accelerationamount = 0.02
+			knockbackintensity = 0.3
+			knockbackresistance = 1
+			
+			bodycolor = make_color_rgb(1,227,227)
+			eyesprite = spr_horse_prototypeooe_eyes
+			winsprite = horse_prototypeooe_win
+			losesprite = horse_prototypeooe_lose
+			portraitsprite = spr_horseportrait_midweststateoutline
+			portraitbgsprite = spr_horseportrait_bg_nightmare
+			
+			customstepsound = sfx_hit_ul
+			winjingle = sfx_winjingle_prototypeooe
+			jinglelength = func_secondstoframes(12)
+		}
+		break
+		case "A Remembered Dream":
+		{
+			overtimeaccelerationamount = 1/func_minutestoframes(2)
+			hasdasheffect = false
+			
+			accelerationamount = 0.04
+			maxacceleration = 10
+			overtimeaccelerationamount = 1/func_minutestoframes(2)
+			
+			knockbackintensity = 2
+			knockbackresistance = 0
+			
+			bodycolor = make_color_rgb(82,82,82)
+			eyesprite = spr_horse_aremembereddream_eyes
+			winsprite = horse_aremembereddream_win
+			losesprite = horse_aremembereddream_lose_proper
+			portraitsprite = spr_horseportrait_aremembereddream
+			portraitbgsprite = spr_horseportrait_bg_nightmare
+			
+			customstepsound = sfx_hit_ul
+			winjingle = sfx_winjingle_aremembereddream
+			jinglelength = func_secondstoframes(6.46)
+		}
+		break
 	}
 }

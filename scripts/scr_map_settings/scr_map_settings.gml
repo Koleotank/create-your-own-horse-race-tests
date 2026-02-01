@@ -154,5 +154,14 @@ function scr_map_settings(argument0)
 			global.SHOW_TIMER = false
 		}
 		break
+		case rm_litmus1:
+		{
+			func_switchmusic(stage_theme_3)
+			global.COUNTDOWN_SKIPTO = 419
+			global.OUT_OF_BOUNDS_MEASURE = "wrap"
+			global.MUSIC_DELAY = 0
+			global.SHOW_TIMER = false
+		}
+		break
 	}
 }
