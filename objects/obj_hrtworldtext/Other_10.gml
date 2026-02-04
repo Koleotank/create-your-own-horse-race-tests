@@ -6,11 +6,3 @@ if(y>=sprite_get_height(sprite_index)) y=y%sprite_get_height(sprite_index)
 
 x+=0.2
 y+=0.1
-
-
-
-
-
-
-
-
