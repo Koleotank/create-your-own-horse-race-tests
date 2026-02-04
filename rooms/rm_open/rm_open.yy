@@ -12,10 +12,12 @@
     {"name":"inst_3E030096","path":"rooms/rm_open/rm_open.yy",},
     {"name":"inst_56B8E462","path":"rooms/rm_open/rm_open.yy",},
     {"name":"inst_4065628A","path":"rooms/rm_open/rm_open.yy",},
+    {"name":"inst_476DE85D","path":"rooms/rm_open/rm_open.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_476DE85D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_476DE85D","objectId":{"name":"obj_hrtworldtext","path":"objects/obj_hrtworldtext/obj_hrtworldtext.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_5DB60B4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DB60B4E","objectId":{"name":"obj_placeyourbets","path":"objects/obj_placeyourbets/obj_placeyourbets.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":515.0,"y":450.0,},
         {"$GMRInstance":"v4","%Name":"inst_3B5448CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B5448CA","objectId":{"name":"obj_hoop","path":"objects/obj_hoop/obj_hoop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_3E030096","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E030096","objectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":128.0,},
