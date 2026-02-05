@@ -172,5 +172,12 @@ function scr_map_settings(argument0)
 			global.SHOW_TIMER = false
 		}
 		break
+		case rm_gijinka1:
+		{
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
 	}
 }

@@ -832,5 +832,125 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.46)
 		}
 		break
+		case "Pollyanna": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(145,114,229)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.5
+			
+			overtimeaccelerationamount = 0;
+			
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_pollyanna_win
+			losesprite = spr_gijinka_pollyanna_lose
+			portraitsprite = spr_horseportrait_pollyanna
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_pollyanna_win
+			jinglelength = func_secondstoframes(8.69)
+		}
+		break
+		case "Tree Line": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(17,56,19)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.3
+			
+			overtimeaccelerationamount = 0;
+			
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_treeline_win
+			losesprite = spr_gijinka_treeline_lose
+			portraitsprite = spr_horseportrait_treeline
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_treeline_win
+			jinglelength = func_secondstoframes(8.89)
+		}
+		break
+		case "Sunfall": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(17,56,19)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 0.8
+			
+			overtimeaccelerationamount = 0;
+			
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_sunfall_win
+			losesprite = spr_gijinka_sunfall_lose
+			portraitsprite = spr_horseportrait_sunfall
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_sunfall_win
+			jinglelength = func_secondstoframes(15.6)
+		}
+		break
+		case "Pat The P": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(153,103,253)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.7
+			
+			overtimeaccelerationamount = 0;
+			
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_pat_win
+			losesprite = spr_gijinka_pat_lose
+			portraitsprite = spr_horseportrait_pat
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_pat_win
+			jinglelength = func_secondstoframes(7.26)
+		}
+		break
 	}
 }

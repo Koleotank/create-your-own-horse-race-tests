@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"epic_slouch_tile",
-    "path":"sprites/epic_slouch_tile/epic_slouch_tile.yy",
+    "name":"gijinka_world_cup_texture_3",
+    "path":"sprites/gijinka_world_cup_texture_3/gijinka_world_cup_texture_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
