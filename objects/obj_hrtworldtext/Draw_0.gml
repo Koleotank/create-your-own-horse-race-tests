@@ -1,10 +1,10 @@
 gpu_set_stencil_enable(true)        
-draw_clear_stencil(255) //
+draw_clear_stencil(255) // SWAP
 gpu_set_stencil_func(cmpfunc_always)
 gpu_set_stencil_pass(stencilop_replace)
 
 gpu_set_colorwriteenable(false,false,false,false)
-gpu_set_stencil_ref(0)    
+gpu_set_stencil_ref(0) // SWAP
 
 gpu_set_alphatestenable(true)
 gpu_set_alphatestref(127)
