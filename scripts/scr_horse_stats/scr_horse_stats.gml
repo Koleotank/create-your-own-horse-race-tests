@@ -1044,7 +1044,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			losesprite = spr_gijinka_spikeduniversalnerman_lose
 			portraitsprite = spr_horseportrait_spikeduniversalnerman
 			portraitbgsprite = gijinka_winscreen
-			winjingle = sfx_hellsbells_win
+			winjingle = sfx_spikeduniversalnerman_win
 			winsound = sfx_nermanmeow
 			jinglelength = func_secondstoframes(8.74)
 		}
