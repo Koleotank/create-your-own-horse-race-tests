@@ -845,7 +845,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			defaultmovespeed = 1.5
 			
 			overtimeaccelerationamount = 0;
-			
+			accelerationamount = 0;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5
@@ -875,7 +875,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			defaultmovespeed = 1.3
 			
 			overtimeaccelerationamount = 0;
-			
+			accelerationamount = 0;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5
@@ -905,7 +905,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			defaultmovespeed = 0.8
 			
 			overtimeaccelerationamount = 0;
-			
+			accelerationamount = 0;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5
@@ -935,7 +935,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			defaultmovespeed = 2.7
 			
 			overtimeaccelerationamount = 0;
-			
+			accelerationamount = 0;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5

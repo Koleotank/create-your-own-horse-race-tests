@@ -25,6 +25,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
+    {"name":"gijinka","order":24,"path":"folders/Sounds/music/gijinka.yy",},
     {"name":"universe l","order":37,"path":"folders/Sounds/universe l.yy",},
     {"name":"music","order":1,"path":"folders/Sounds/universe l/music.yy",},
     {"name":"win_jingles","order":2,"path":"folders/Sounds/universe l/win_jingles.yy",},
