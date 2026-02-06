@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sfx_tasershock.WAV",
-  "volume":0.52,
+  "volume":0.18,
 }
