@@ -16,10 +16,6 @@
     {"$GMSpriteFrame":"v1","%Name":"37a9ce79-a213-42fa-98c9-64cd4015d515","name":"37a9ce79-a213-42fa-98c9-64cd4015d515","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"6dcaa6f3-d46a-4125-868b-4ca0ee0b37ec","name":"6dcaa6f3-d46a-4125-868b-4ca0ee0b37ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"35342ac2-0d7c-4030-aa59-e266e3ee18c8","name":"35342ac2-0d7c-4030-aa59-e266e3ee18c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"bc8f7679-ece1-435b-a7b1-ccfb74d448c5","name":"bc8f7679-ece1-435b-a7b1-ccfb74d448c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"fa27261c-39e5-414d-848d-4d13f06ade0e","name":"fa27261c-39e5-414d-848d-4d13f06ade0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"c5f7341c-ac6c-4025-abe0-c2cff4616452","name":"c5f7341c-ac6c-4025-abe0-c2cff4616452","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8c15ad24-689a-4747-9274-f79dbc08195d","name":"8c15ad24-689a-4747-9274-f79dbc08195d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"special",
-    "path":"folders/Sprites/special.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -56,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -66,7 +62,7 @@
     },
     "name":"spr_tasershock",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":12.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -87,18 +83,6 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35342ac2-0d7c-4030-aa59-e266e3ee18c8","path":"sprites/spr_tasershock/spr_tasershock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"be01bef7-462c-4fdc-bf84-8b67d9c2094f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc8f7679-ece1-435b-a7b1-ccfb74d448c5","path":"sprites/spr_tasershock/spr_tasershock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5d7df8d5-df42-4689-839b-5231eead7d9d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa27261c-39e5-414d-848d-4d13f06ade0e","path":"sprites/spr_tasershock/spr_tasershock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cc3f592d-7f18-4790-acd4-012b0088f4f6","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5f7341c-ac6c-4025-abe0-c2cff4616452","path":"sprites/spr_tasershock/spr_tasershock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"64b55fef-f1bc-460d-b1c8-c9952c6bd636","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c15ad24-689a-4747-9274-f79dbc08195d","path":"sprites/spr_tasershock/spr_tasershock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"07811764-8d8f-45d4-b5f4-9aa1d7b97a4b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

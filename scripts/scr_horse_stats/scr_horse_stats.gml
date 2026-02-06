@@ -1142,5 +1142,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(7.44)
 		}
 		break
+		case "Looking For Love": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(178,15,253)
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 2.25
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cyan_win
+			losesprite = spr_gijinka_cyan_lose
+			portraitsprite = spr_horseportrait_cyan
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_cyan
+			winsound = sfx_goddayum
+			jinglelength = func_secondstoframes(4)
+		}
+		break
 	}
 }
