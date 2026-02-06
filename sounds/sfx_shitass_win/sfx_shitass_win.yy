@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_shitass_win",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.6887527,
+  "exportDir":"",
+  "name":"sfx_shitass_win",
+  "parent":{
+    "name":"gijinkas",
+    "path":"folders/Sounds/win jingles/gijinkas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_shitass_win.wav",
+  "volume":0.8,
+}

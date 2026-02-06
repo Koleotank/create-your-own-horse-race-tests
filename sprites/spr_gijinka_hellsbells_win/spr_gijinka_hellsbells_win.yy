@@ -23,7 +23,7 @@
   ],
   "name":"spr_gijinka_hellsbells_win",
   "nineSlice":null,
-  "origin":7,
+  "origin":4,
   "parent":{
     "name":"endstate",
     "path":"folders/Sprites/horses/gijinkas/endstate.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":32,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

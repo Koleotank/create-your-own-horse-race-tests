@@ -1025,7 +1025,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
-			bodycolor = make_color_rgb(206,88,112)
+			bodycolor = make_color_rgb(255,68,0)
 			
 			knockbackresistance = -0.5
 			defaultmovespeed = 1.6*1.5
@@ -1078,6 +1078,68 @@ function scr_horse_stats(_givenidentity,_room=room)
 			winjingle = sfx_taskfailedsuccessfully_win
 			winsound = sfx_yumenikki
 			jinglelength = func_secondstoframes(12.01)
+		}
+		break
+		case "Shitass?": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(72,0,255)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 0.8
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_shitass_winlose
+			losesprite = spr_gijinka_shitass_winlose
+			portraitsprite = spr_horseportrait_shitass
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_shitass_win
+			winsound = sfx_maltigiscream
+			jinglelength = func_secondstoframes(5.69)
+		}
+		break
+		case "Cereal Box": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(178,15,253)
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cerealbox_win
+			losesprite = spr_gijinka_cerealbox_lose
+			portraitsprite = spr_gijinkaportrait_cerealbox
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_cerealbox_win
+			winsound = sfx_animewow
+			jinglelength = func_secondstoframes(7.44)
 		}
 		break
 	}

@@ -2,5 +2,5 @@
 // You can write your code in this editor
 event_inherited()
 
-horseidentity = "Pollyanna"
+horseidentity = "Task Failed Successfully"
 scr_horse_stats(horseidentity)
