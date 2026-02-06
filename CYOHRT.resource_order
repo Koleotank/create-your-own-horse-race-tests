@@ -695,6 +695,7 @@
     {"name":"spr_skyboxtrikethrice_shutter","order":38,"path":"sprites/spr_skyboxtrikethrice_shutter/spr_skyboxtrikethrice_shutter.yy",},
     {"name":"spr_skyboxtrikethrice_thirdeye","order":37,"path":"sprites/spr_skyboxtrikethrice_thirdeye/spr_skyboxtrikethrice_thirdeye.yy",},
     {"name":"spr_stillhungry","order":20,"path":"sprites/spr_stillhungry/spr_stillhungry.yy",},
+    {"name":"spr_tasershock","order":4,"path":"sprites/spr_tasershock/spr_tasershock.yy",},
     {"name":"spr_thelooker","order":34,"path":"sprites/spr_thelooker/spr_thelooker.yy",},
     {"name":"spr_titlescreenbg","order":5,"path":"sprites/spr_titlescreenbg/spr_titlescreenbg.yy",},
     {"name":"spr_uitab","order":9,"path":"sprites/spr_uitab/spr_uitab.yy",},
