@@ -11,7 +11,7 @@ else
 		var _shocker = instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_tasershock)
 		_shocker.lifespan = 70;
 		_shocker.owner = _collidingobject;
-		cooldown = 20;
+		cooldown = 40;
 	}
 	if place_meeting(x,y,obj_horseparent)
 	{
@@ -20,6 +20,6 @@ else
 		var _shocker = instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_tasershock)
 		_shocker.lifespan = 70;
 		_shocker.owner = _collidingobject;
-		cooldown = 20;
+		cooldown = 40;
 	}
 }

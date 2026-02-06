@@ -1149,7 +1149,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
-			bodycolor = make_color_rgb(178,15,253)
+			bodycolor = make_color_rgb(12,175,181)
 			
 			knockbackresistance = -0.1
 			defaultmovespeed = 2.25
@@ -1171,6 +1171,37 @@ function scr_horse_stats(_givenidentity,_room=room)
 			winjingle = sfx_winjingle_cyan
 			winsound = sfx_goddayum
 			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Shadow Lady Estate": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(0,63,63)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 2.25
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_knifemare_win
+			losesprite = spr_gijinka_knifemare_lose
+			portraitsprite = spr_horseportrait_nighttimeknifemare
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_nighttimeknifemare
+			winsound = sfx_2kkilaugh
+			jinglelength = func_secondstoframes(6.6)
 		}
 		break
 	}
