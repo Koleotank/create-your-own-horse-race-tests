@@ -7,7 +7,6 @@ else
 	owner.x = holding_x
 	owner.y = holding_y
 	
-
 if lifespan > 0 
 	lifespan--
 
