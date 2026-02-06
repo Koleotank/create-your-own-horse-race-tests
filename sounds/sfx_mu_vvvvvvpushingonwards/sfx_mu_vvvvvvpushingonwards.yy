@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_mu_vvvvvvpushingonwards",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":219.42857,
+  "exportDir":"",
+  "name":"sfx_mu_vvvvvvpushingonwards",
+  "parent":{
+    "name":"gijinka",
+    "path":"folders/Sounds/music/gijinka.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_mu_vvvvvvpushingonwards.mp3",
+  "volume":1.0,
+}
