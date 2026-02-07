@@ -1204,5 +1204,67 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.6)
 		}
 		break
+		case "Capri Eclipse": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(44,101,199)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_capri_win
+			losesprite = spr_gijinka_capri_lose
+			portraitsprite = spr_horseportrait_capri
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_caprieclipse_win
+			winsound = sfx_2kkilaugh
+			jinglelength = func_secondstoframes(9.4)
+		}
+		break
+		case "Raining Roses": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(168,34,50)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_rosie_win
+			losesprite = spr_gijinka_rosie_lose
+			portraitsprite = spr_horseportrait_rosie
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_rosie_win
+			winsound = sfx_2kkilaugh
+			jinglelength = func_secondstoframes(4.2)
+		}
+		break
 	}
 }
