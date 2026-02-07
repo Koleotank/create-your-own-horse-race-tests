@@ -1209,7 +1209,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyeframeamount = 8
 			spritemergedwitheyedirection = true
 			eyedirectionsmoveclockwise = true
-			firsteyeframe = 0
+			firsteyeframe = 2
 			
 			bodycolor = make_color_rgb(44,101,199)
 			
@@ -1240,7 +1240,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyeframeamount = 8
 			spritemergedwitheyedirection = true
 			eyedirectionsmoveclockwise = true
-			firsteyeframe = 0
+			firsteyeframe = 2
 			
 			bodycolor = make_color_rgb(168,34,50)
 			
