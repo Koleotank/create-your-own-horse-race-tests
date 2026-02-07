@@ -1231,7 +1231,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitsprite = spr_horseportrait_capri
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_caprieclipse_win
-			winsound = sfx_2kkilaugh
+			winsound = sfx_capriHEY
 			jinglelength = func_secondstoframes(9.4)
 		}
 		break
@@ -1262,7 +1262,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitsprite = spr_horseportrait_rosie
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_rosie_win
-			winsound = sfx_2kkilaugh
+			winsound = sfx_chipmunklaugh
 			jinglelength = func_secondstoframes(4.2)
 		}
 		break

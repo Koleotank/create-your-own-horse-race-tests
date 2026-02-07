@@ -252,7 +252,7 @@ function scr_map_settings(argument0)
 			//global.REMAINING_WIN_SLOTS = 75
 		}
 		break
-		case rm_gijinka10:
+		case rm_gijinka11:
 		{
 			func_switchmusic(sfx_mu_themeofpuyopuyo)
 			global.SHOW_TIMER = false
