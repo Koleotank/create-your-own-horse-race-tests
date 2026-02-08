@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_fooxiacry",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.1953063,
+  "exportDir":"",
+  "name":"sfx_fooxiacry",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_fooxiacry.wav",
+  "volume":0.59,
+}

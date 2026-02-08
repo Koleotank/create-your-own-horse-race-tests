@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-dillydally++
+if(!theyrepresent) dillydally++
 
 if dillydally == times_up
 {
