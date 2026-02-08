@@ -1,8 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-if place_meeting(x,y,obj_horseparent) {
-	var _collidingobject = instance_place(x,y,obj_horseparent)
+if place_meeting(x+hsp,y+vsp,obj_horseparent) {
+	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
 	if _collidingobject.horseidentity == "Limestone Effodient" && cooldown == 0
 	{
 		var _deathsound = audio_play_sound(sfx_CHOMP,10,false)

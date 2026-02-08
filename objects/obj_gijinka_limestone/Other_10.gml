@@ -1,6 +1,21 @@
 // Inherit the parent event
 event_inherited();
 
+if(!tested) 
+{
+	for (var _i=0; _i<instance_number(obj_horseparent); _i++)
+	{
+		var _honse = instance_find(obj_horseparent,_i)
+		if(_honse.horseidentity == "Crepuscule")
+		{
+			theyrepresent = true 
+			tested = true
+			show_debug_message("YUP, HES IN THE CLEAR");
+			break;
+		}
+	}
+}
+
 if(!theyrepresent) dillydally++
 
 if dillydally == times_up
