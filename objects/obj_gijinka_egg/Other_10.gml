@@ -40,35 +40,30 @@ if currentmovespeed-acceleration >= 4 && hasdasheffect == true
 if place_meeting(x,y,obj_mapparent)
 {
 	//show_debug_message("stuck inside solid, performing anti collision clip")
-	var _collidingobject = instance_place(x,y,obj_mapparent)
-	func_performknockback(_collidingobject)
 	func_anticollisionclipping(obj_mapparent)
 }
 if place_meeting(x,y,obj_horseparent)
 {
-	var _collidingobject = instance_place(x,y,obj_horseparent);
 	//show_debug_message("stuck inside horse, performing anti collision clip")
 	func_anticollisionclipping(obj_horseparent)
-	defaultmovespeed = 0.7
-	func_updatespeed()
-	func_performcollision(_collidingobject)
-	func_ballpass(_collidingobject)
 }
-
 if place_meeting(x+(hsp),y+(vsp),obj_mapparent)
 {
 	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
+	currentmovespeed = 10
+	func_updatespeed()
 }
 
 if place_meeting(x+(hsp),y+(vsp),obj_horseparent)
 {
 	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_horseparent)
-	var _oldhsp = hsp
-	//func_performknockback(_collidingobject)
-	func_performcollision(_collidingobject)
-	func_ballpass(_collidingobject)
+	func_performknockback(_collidingobject)
+	currentmovespeed = 10
+	func_updatespeed()
 }
+
+if(currentmovespeed > 0.001) currentmovespeed*=0.9
 
 if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {

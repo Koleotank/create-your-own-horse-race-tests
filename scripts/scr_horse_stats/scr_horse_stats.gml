@@ -1302,13 +1302,12 @@ function scr_horse_stats(_givenidentity,_room=room)
 			spritemergedwitheyedirection = true
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
-			
-			knockbackresistance = -0.1
-			defaultmovespeed = 0
+
+			knockbackresistance = 0
+			defaultmovespeed = 0.001
 			
 			overtimeaccelerationamount = 0;
 			accelerationamount = 0;
-			decelerationamount = 0.05;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5
@@ -1430,7 +1429,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(255,175,255)
 			
-			knockbackresistance = 5
+			knockbackresistance = 1
 			defaultmovespeed = 1.9*1.5
 			
 			overtimeaccelerationamount = 0;
