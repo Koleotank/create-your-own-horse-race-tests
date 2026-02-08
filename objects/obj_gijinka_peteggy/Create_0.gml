@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 
-horseidentity = "Level 35 Mafia Boss"
+horseidentity = "Liar Eggsaggerate"
 scr_horse_stats(horseidentity)
 
 teleportscandistance = 0

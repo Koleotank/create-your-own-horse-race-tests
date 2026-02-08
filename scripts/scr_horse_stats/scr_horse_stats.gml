@@ -1326,7 +1326,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(4)
 		}
 		break
-		case "Level 35 Mafia Boss": 
+		case "Liar Eggsaggerate": 
 		{
 			eyeframeamount = 8
 			spritemergedwitheyedirection = true
