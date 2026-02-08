@@ -47,15 +47,15 @@ if place_meeting(x,y,obj_horseparent)
 	//show_debug_message("stuck inside horse, performing anti collision clip")
 	func_anticollisionclipping(obj_horseparent)
 }
-if place_meeting(x+sign(hsp),y+sign(vsp),obj_mapparent)
+if place_meeting(x+(hsp),y+(vsp),obj_mapparent)
 {
-	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_mapparent)
+	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
 }
 
-if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
+if place_meeting(x+(hsp),y+(vsp),obj_horseparent)
 {
-	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
+	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_horseparent)
 	func_performknockback(_collidingobject)
 }
 
