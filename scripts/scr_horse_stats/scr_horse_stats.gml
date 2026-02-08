@@ -1399,8 +1399,6 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(205,2,63)
 			
-			afterimagecooldown = 3
-			
 			knockbackresistance = 5
 			defaultmovespeed = 3*1.5
 			
