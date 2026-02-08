@@ -188,4 +188,9 @@ function scr_step()
 		if global.GAME_STATE != "paused"
 			event_user(0)
 	}
+	with obj_crepusculekill
+	{
+		if global.GAME_STATE != "paused"
+			event_user(0)
+	}
 }

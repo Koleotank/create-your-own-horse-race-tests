@@ -260,5 +260,29 @@ function scr_map_settings(argument0)
 			//global.REMAINING_WIN_SLOTS = 75
 		}
 		break
+		case rm_gijinka11b:
+		{
+			func_switchmusic(sfx_mu_stickerofpuyopuyo)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka12:
+		{
+			func_switchmusic(sfx_mu_tfivdownrightattack)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka13:
+		{
+			func_switchmusic(sfx_mu_mm2wily1)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
 	}
 }

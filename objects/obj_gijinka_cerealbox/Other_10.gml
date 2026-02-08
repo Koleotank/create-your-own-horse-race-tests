@@ -24,10 +24,10 @@ else
 	killing_y=y
 }
 
-if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent)
+if place_meeting(x+hsp,y+vsp,obj_horseparent)
 {
 	is_killing=true
-	var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent);
+	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent);
 	if is_killing && round(random_range(1,8))==1
 	{
 		kill_time = 30

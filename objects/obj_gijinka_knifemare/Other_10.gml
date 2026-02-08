@@ -30,10 +30,10 @@ if to_catch_number <= 0 && global.GAME_STATE = "normal" //array_length(to_catch)
 var _chasertraplocations = instance_number(obj_chasertraplocation)
 if cooldown == 0 
 {
-	if place_meeting(x+sign(hsp),y+sign(vsp),obj_horseparent) && _chasertraplocations>0
+	if place_meeting(x+hsp,y+vsp,obj_horseparent) && _chasertraplocations>0
 	{
 		audio_play_sound(sfx_2kkichasertrap1,20,false)
-		var _collidingobject = instance_place(x+sign(hsp),y+sign(vsp),obj_horseparent)
+		var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
 		to_catch_number--;
 		/*
 		for (var _i=0; _i<array_length(to_catch); _i++)

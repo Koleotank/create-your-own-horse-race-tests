@@ -1011,7 +1011,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			winsprite = spr_gijinka_hellsbells_win
 			losesprite = spr_gijinka_hellsbells_lose
-			portraitsprite = spr_horseportrait_hellsbells
+			portraitsprite = spr_gijinkaportrait_hellsbells
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_hellsbells_win
 			winsound = sfx_yesss
@@ -1259,11 +1259,134 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			winsprite = spr_gijinka_rosie_win
 			losesprite = spr_gijinka_rosie_lose
-			portraitsprite = spr_horseportrait_rosie
+			portraitsprite = spr_gijinkaportrait_rosie
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_rosie_win
 			winsound = sfx_chipmunklaugh
 			jinglelength = func_secondstoframes(4.2)
+		}
+		break
+		case "Liar Liar Pants Ablaze": // plasticine gijinka
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_plasticine_win
+			losesprite = spr_gijinka_plasticine_lose
+			portraitsprite = spr_horseportrait_plasticineentity
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			secondwinsound = sfx_horseglitch
+			winsound = sfx_chipmunklaugh
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Pod Ball Chair": // plasticine gijinka
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 0
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_egg
+			losesprite = spr_gijinka_egg
+			portraitsprite = spr_horseportrait_plasticineentity
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			winsound = sfx_null
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Level 35 Mafia Boss": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			knockbackresistance = 5
+			defaultmovespeed = 2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			bodycolor = make_color_rgb(0,179,179)
+			customstepsound = sfx_null
+			customhorsecollidesound = sfx_null
+			winsprite = spr_gijinka_peteggy_win
+			winsprite = spr_gijinka_peteggy_lose
+			portraitsprite = spr_horseportrait_peteggy
+			portraitbgsprite = gijinka_winscreen
+			winsound = sfx_chipmunklaugh
+			secondwinsound = sfx_horseglitch
+			winjingle = sfx_null
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Limestone Effodient": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(132,84,232)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_limestone_win
+			losesprite = spr_gijinka_limestone_lose
+			portraitsprite = spr_horseportrait_limestone
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			winsound = sfx_limestone_muahahaha
+			jinglelength = func_secondstoframes(4)
 		}
 		break
 	}
