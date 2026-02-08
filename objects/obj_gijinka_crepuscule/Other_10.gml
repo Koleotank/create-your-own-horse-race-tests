@@ -20,3 +20,13 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 }
 
 if (cooldown > 0) cooldown--
+
+
+if afterimagecooldown >= 10
+	{
+		var _afterimage = instance_create_depth(x,y,0,obj_dasheffect_afterimage)
+		_afterimage.sprite_index = sprite_index
+		afterimagecooldown = 0
+	}
+	else
+		afterimagecooldown++

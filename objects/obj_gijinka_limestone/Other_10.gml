@@ -31,7 +31,7 @@ if dillydally == times_up
 if dillydally == times_up+func_secondstoframes(0.8) 
 {
 	audio_play_sound(sfx_ominousrpgmakersound,10,false)
-	var _THEM = instance_create_depth(72+((x%32)+32)%32,y,1,obj_crepusculekill)
+	var _THEM = instance_create_depth(12+((x%32)+32)%32,y,1,obj_crepusculekill)
 	_THEM.owner = id
 }
 

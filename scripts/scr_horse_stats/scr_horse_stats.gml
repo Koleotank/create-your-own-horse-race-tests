@@ -1308,6 +1308,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			overtimeaccelerationamount = 0;
 			accelerationamount = 0;
+			decelerationamount = 0.05;
 			hasdasheffect = 0;
 			
 			//angleincrementdirectionmin = -2.5
@@ -1397,6 +1398,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			firsteyeframe = 2
 			
 			bodycolor = make_color_rgb(205,2,63)
+			
+			afterimagecooldown = 3
 			
 			knockbackresistance = 5
 			defaultmovespeed = 3*1.5

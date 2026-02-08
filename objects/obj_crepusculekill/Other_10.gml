@@ -1,7 +1,7 @@
 /// @description controlled step event
 // You can write your code in this editor
 
-if place_meeting(x,y,obj_horseparent) {
+if place_meeting(x,y,obj_horseparent) && killtime >= 10 {
 	var _collidingobject = instance_place(x,y,obj_horseparent)
 	if _collidingobject == owner && success == false
 	{

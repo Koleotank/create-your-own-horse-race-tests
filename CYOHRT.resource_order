@@ -363,6 +363,7 @@
     {"name":"sfx_pyb_two","order":9,"path":"sounds/sfx_pyb_two/sfx_pyb_two.yy",},
     {"name":"sfx_random2kkinoise","order":2,"path":"sounds/sfx_random2kkinoise/sfx_random2kkinoise.yy",},
     {"name":"sfx_rosie_win","order":13,"path":"sounds/sfx_rosie_win/sfx_rosie_win.yy",},
+    {"name":"sfx_rpgmakerdecision","order":14,"path":"sounds/sfx_rpgmakerdecision/sfx_rpgmakerdecision.yy",},
     {"name":"sfx_shine","order":32,"path":"sounds/sfx_shine/sfx_shine.yy",},
     {"name":"sfx_shitass_win","order":10,"path":"sounds/sfx_shitass_win/sfx_shitass_win.yy",},
     {"name":"sfx_shutter","order":31,"path":"sounds/sfx_shutter/sfx_shutter.yy",},
