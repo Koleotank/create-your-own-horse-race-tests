@@ -20,7 +20,7 @@ if teleporting == false
 	{
 		while func_placemeetingalt(x+lengthdir_x(teleportscandistance,targetangle),y+lengthdir_y(teleportscandistance,targetangle),obj_mapparent)
 		{
-			teleportscandistance -= 0.5
+			teleportscandistance -= 0.1
 		}
 		teleportx = x+lengthdir_x(teleportscandistance,targetangle)
 		teleporty = y+lengthdir_y(teleportscandistance,targetangle)

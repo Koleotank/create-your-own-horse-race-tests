@@ -1451,5 +1451,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6)
 		}
 		break
+		case "Cheery Times": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(178,255,94)
+			
+			knockbackresistance = 1
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cheerytimes_win
+			losesprite = spr_gijinka_cheerytimes_lose
+			portraitsprite = spr_horseportrait_cheerytimes
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_cheerytimes_win
+			winsound = sfx_stockhooray
+			jinglelength = func_secondstoframes(10.3)
+		}
+		break
 	}
 }

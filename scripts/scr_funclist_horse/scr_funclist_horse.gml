@@ -20,7 +20,7 @@ function func_performcollision(_checkforhorse=obj_mapparent)
 		//targetangle = point_direction(x,y,x+(hsp*-1),y+vsp)
 		//func_getknockbackfromobject(_targetx,_targety,_checkforhorse)
 		func_surfacebounce(_checkforhorse)
-		if object_index == obj_ball || object_get_parent(object_index) == obj_ball || object_index == obj_gijinka_egg
+		if object_index == obj_ball || object_get_parent(object_index) == obj_ball
 		{
 			func_playstepsound(customstepsound,stepsoundcooldown)
 			stepsoundcooldown = 2

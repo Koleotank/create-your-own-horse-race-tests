@@ -51,19 +51,21 @@ if place_meeting(x+(hsp),y+(vsp),obj_mapparent)
 {
 	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_mapparent)
 	func_performknockback(_collidingobject)
-	currentmovespeed = 10
+	hasdonecollisionthisframe = false
+	knockbackrecieved = mover
 	func_updatespeed()
 }
+else mover = knockbackrecieved // The shitty workaround to end all shitty workarounds
 
 if place_meeting(x+(hsp),y+(vsp),obj_horseparent)
 {
 	var _collidingobject = instance_place(x+(hsp),y+(vsp),obj_horseparent)
 	func_performknockback(_collidingobject)
-	currentmovespeed = 10
+	knockbackrecieved = 10
 	func_updatespeed()
 }
 
-if(currentmovespeed > 0.001) currentmovespeed*=0.9
+if(knockbackrecieved > 0.001) knockbackrecieved*=0.96
 
 if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {
