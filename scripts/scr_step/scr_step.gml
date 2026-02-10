@@ -14,7 +14,11 @@ function scr_step()
 			global.TIMER_MINUTES++
 		}
 	}
-	
+	with obj_pictureobstacleparent
+	{
+		if global.GAME_STATE != "paused"
+			event_user(0)
+	}
 	with obj_horseparent
 	{
 		if global.GAME_STATE == "normal"
