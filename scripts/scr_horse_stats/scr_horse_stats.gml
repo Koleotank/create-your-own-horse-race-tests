@@ -1482,5 +1482,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(10.3)
 		}
 		break
+		case "All That Glitters": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(248,232,0)
+			
+			knockbackresistance = 1
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_goldie_win
+			losesprite = spr_gijinka_goldie_lose
+			portraitsprite = spr_horseportrait_goldie
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_goldie_win
+			winsound = sfx_gold
+			jinglelength = func_secondstoframes(11.3)
+		}
+		break
 	}
 }
