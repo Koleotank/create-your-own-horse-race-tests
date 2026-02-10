@@ -1429,7 +1429,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(255,175,255)
 			
-			knockbackresistance = 1
+			knockbackresistance = 0.1
 			defaultmovespeed = 1.9*1.5
 			
 			overtimeaccelerationamount = 0;
@@ -1460,7 +1460,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(178,255,94)
 			
-			knockbackresistance = 1
+			knockbackresistance = -0.3
 			defaultmovespeed = 1.6*1.5
 			
 			overtimeaccelerationamount = 0;
@@ -1491,7 +1491,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(248,232,0)
 			
-			knockbackresistance = 1
+			knockbackresistance = 0
 			defaultmovespeed = 1.8*1.5
 			
 			overtimeaccelerationamount = 0;
@@ -1511,6 +1511,37 @@ function scr_horse_stats(_givenidentity,_room=room)
 			winjingle = sfx_goldie_win
 			winsound = sfx_gold
 			jinglelength = func_secondstoframes(11.3)
+		}
+		break
+		case "Omega Mark": 
+		{
+			eyeframeamount = 2
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(255,0,0)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 2.8
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_goldie_win
+			losesprite = spr_gijinka_goldie_lose
+			portraitsprite = spr_horseportrait_goldie
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_omegamark_win
+			winsound = sfx_rpgmakerchime2
+			jinglelength = func_secondstoframes(9.6)
 		}
 		break
 	}
