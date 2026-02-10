@@ -65,7 +65,7 @@ if place_meeting(x+(hsp),y+(vsp),obj_horseparent)
 	func_updatespeed()
 }
 
-if(knockbackrecieved > 0.001) knockbackrecieved*=0.96
+if(knockbackrecieved > 0.001) knockbackrecieved*=0.98
 
 if place_meeting(x,y,obj_goal) && global.REMAINING_WIN_SLOTS > 0 && global.GAME_STATE = "normal"
 {
