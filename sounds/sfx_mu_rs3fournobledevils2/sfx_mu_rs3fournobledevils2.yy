@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_mu_rs3fournobledevils2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":181.44,
+  "exportDir":"",
+  "name":"sfx_mu_rs3fournobledevils2",
+  "parent":{
+    "name":"gijinka",
+    "path":"folders/Sounds/music/gijinka.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_mu_rs3fournobledevils2.mp3",
+  "volume":0.64,
+}
