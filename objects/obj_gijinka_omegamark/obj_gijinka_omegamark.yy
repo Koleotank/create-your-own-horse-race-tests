@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gijinka_goldie",
+  "%Name":"obj_gijinka_omegamark",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gijinka_goldie",
+  "name":"obj_gijinka_omegamark",
   "overriddenProperties":[],
   "parent":{
     "name":"gijinkas",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gijinka_goldie",
-    "path":"sprites/spr_gijinka_goldie/spr_gijinka_goldie.yy",
+    "name":"spr_gijinka_omegamark",
+    "path":"sprites/spr_gijinka_omegamark/spr_gijinka_omegamark.yy",
   },
   "spriteMaskId":null,
   "visible":true,

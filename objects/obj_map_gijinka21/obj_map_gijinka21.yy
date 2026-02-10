@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gijinka_goldie",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_map_gijinka21",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gijinka_goldie",
+  "name":"obj_map_gijinka21",
   "overriddenProperties":[],
   "parent":{
-    "name":"gijinkas",
-    "path":"folders/Objects/horses/gijinkas.yy",
+    "name":"gijinka",
+    "path":"folders/Objects/maps/gijinka.yy",
   },
   "parentObjectId":{
-    "name":"obj_horseparent",
-    "path":"objects/obj_horseparent/obj_horseparent.yy",
+    "name":"obj_mapparent",
+    "path":"objects/obj_mapparent/obj_mapparent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gijinka_goldie",
-    "path":"sprites/spr_gijinka_goldie/spr_gijinka_goldie.yy",
+    "name":"spr_map_gijinka21",
+    "path":"sprites/spr_map_gijinka21/spr_map_gijinka21.yy",
   },
   "spriteMaskId":null,
   "visible":true,

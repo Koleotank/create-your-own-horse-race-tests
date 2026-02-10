@@ -1535,9 +1535,9 @@ function scr_horse_stats(_givenidentity,_room=room)
 			angleincrementdirectionmax = 3
 			anglechangechance = 1
 			
-			winsprite = spr_gijinka_goldie_win
-			losesprite = spr_gijinka_goldie_lose
-			portraitsprite = spr_horseportrait_goldie
+			winsprite = spr_gijinka_omegamark_win
+			losesprite = spr_gijinka_omegamark_lose
+			portraitsprite = spr_gijinkaportrait_omegamark
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_omegamark_win
 			winsound = sfx_rpgmakerchime2
