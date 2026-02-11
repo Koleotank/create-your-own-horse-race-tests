@@ -1575,5 +1575,67 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(7.3)
 		}
 		break
+		case "Final Fantasy": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,255,255)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_superstitional_win
+			losesprite = spr_gijinka_superstitional_lose
+			portraitsprite = spr_horseportrait_superstitionalrealism
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_superstitionalrealism
+			winsound = sfx_gongaga
+			jinglelength = func_secondstoframes(6.5)
+		}
+		break
+		case "Bismuth Leadstone": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(41,41,45)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.8*1.4
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_bismuth_win
+			losesprite = spr_gijinka_bismuth_lose
+			portraitsprite = spr_horseportrait_bismuth
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_bismuth_win
+			winsound = sfx_GAYYY
+			jinglelength = func_secondstoframes(8)
+		}
+		break
 	}
 }
