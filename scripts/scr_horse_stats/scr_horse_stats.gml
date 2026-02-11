@@ -1544,5 +1544,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(9.6)
 		}
 		break
+		case "Treeflower Tapestry": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(233,47,36)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.4*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_tft_win
+			losesprite = spr_gijinka_tft_lose
+			portraitsprite = spr_horseportrait_tft
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_tft_win
+			winsound = sfx_tftHEYTHERE
+			jinglelength = func_secondstoframes(7.3)
+		}
+		break
 	}
 }
