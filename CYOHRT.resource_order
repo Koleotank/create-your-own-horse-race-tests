@@ -374,6 +374,7 @@
     {"name":"sfx_mu_rs3thebattle","order":3,"path":"sounds/sfx_mu_rs3thebattle/sfx_mu_rs3thebattle.yy",},
     {"name":"sfx_mu_sirens","order":22,"path":"sounds/sfx_mu_sirens/sfx_mu_sirens.yy",},
     {"name":"sfx_mu_stickerofpuyopuyo","order":10,"path":"sounds/sfx_mu_stickerofpuyopuyo/sfx_mu_stickerofpuyopuyo.yy",},
+    {"name":"sfx_mu_tfivairraid","order":20,"path":"sounds/sfx_mu_tfivairraid/sfx_mu_tfivairraid.yy",},
     {"name":"sfx_mu_tfivdownrightattack","order":11,"path":"sounds/sfx_mu_tfivdownrightattack/sfx_mu_tfivdownrightattack.yy",},
     {"name":"sfx_mu_themeofpuyopuyo","order":9,"path":"sounds/sfx_mu_themeofpuyopuyo/sfx_mu_themeofpuyopuyo.yy",},
     {"name":"sfx_mu_victory","order":14,"path":"sounds/sfx_mu_victory/sfx_mu_victory.yy",},
