@@ -288,6 +288,7 @@
     {"id":{"name":"rm_gijinka21","path":"rooms/rm_gijinka21/rm_gijinka21.yy",},},
     {"id":{"name":"rm_gijinka22","path":"rooms/rm_gijinka22/rm_gijinka22.yy",},},
     {"id":{"name":"rm_gijinka23","path":"rooms/rm_gijinka23/rm_gijinka23.yy",},},
+    {"id":{"name":"rm_gijinka23b","path":"rooms/rm_gijinka23b/rm_gijinka23b.yy",},},
     {"id":{"name":"rm_gijinka24","path":"rooms/rm_gijinka24/rm_gijinka24.yy",},},
     {"id":{"name":"rm_gijinka25","path":"rooms/rm_gijinka25/rm_gijinka25.yy",},},
     {"id":{"name":"rm_gijinka3","path":"rooms/rm_gijinka3/rm_gijinka3.yy",},},
@@ -1048,6 +1049,7 @@
     {"roomId":{"name":"rm_gijinka23","path":"rooms/rm_gijinka23/rm_gijinka23.yy",},},
     {"roomId":{"name":"rm_gijinka24","path":"rooms/rm_gijinka24/rm_gijinka24.yy",},},
     {"roomId":{"name":"rm_gijinka25","path":"rooms/rm_gijinka25/rm_gijinka25.yy",},},
+    {"roomId":{"name":"rm_gijinka23b","path":"rooms/rm_gijinka23b/rm_gijinka23b.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
