@@ -1637,5 +1637,67 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(8)
 		}
 		break
+		case "Scorched Abnormality": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,75,0)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_abby_win
+			losesprite = spr_gijinka_abby_lose
+			portraitsprite = spr_gijinkaportrait_abby
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_abby_win
+			winsound = sfx_gunstarORYA
+			jinglelength = func_secondstoframes(5.5)
+		}
+		break
+		case "Riveting Flash": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(25,163,44)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_rivet_win
+			losesprite = spr_gijinka_rivet_lose
+			portraitsprite = spr_horseportrait_rivet
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_rivet_win
+			winsound = sfx_gunstarORCHHIT
+			jinglelength = func_secondstoframes(6.85)
+		}
+		break
 	}
 }
