@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_tftHEYTHERE",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.3452381,
+  "exportDir":"",
+  "name":"sfx_tftHEYTHERE",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_tftHEYTHERE.wav",
+  "volume":0.39,
+}

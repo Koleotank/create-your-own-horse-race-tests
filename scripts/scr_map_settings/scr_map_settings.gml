@@ -8,7 +8,7 @@ function scr_map_settings(argument0)
 	//wrap: makes horses reappear at the opposite side of the room
 	//nothing: does nothing, use if leaving the room boundaries is intended behavior
 	global.MUSIC_DELAY = 30 //how many frames the map music is initially delayed for
-	global.REMAINING_WIN_SLOTS = 1 //how many horses can win the race. doesn't apply for paradise fishing or basketball
+	global.REMAINING_WIN_SLOTS = 1 //how many horses can win the race. doesn't apply for paradise fishing (yet)
 	global.SHOW_TIMER = true //displays the timer if enabled
 	
 	switch argument0
@@ -170,6 +170,232 @@ function scr_map_settings(argument0)
 			global.OUT_OF_BOUNDS_MEASURE = "wrap"
 			global.MUSIC_DELAY = 0
 			global.SHOW_TIMER = false
+		}
+		break
+		case rm_gijinka1:
+		{
+			func_switchmusic(sfx_mu_lufia2battle2)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka2:
+		{
+			func_switchmusic(sfx_mu_gradiusheavyblow)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka3:
+		{
+			func_switchmusic(sfx_mu_earthboundhippie)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka4:
+		{
+			func_switchmusic(sfx_mu_rs3thebattle)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka5:
+		{
+			func_switchmusic(sfx_mu_rs1coupdegrace)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka6:
+		{
+			func_switchmusic(sfx_mu_lufia2summer)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka7:
+		{
+			func_switchmusic(sfx_mu_earthboundzombie)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka8:
+		{
+			func_switchmusic(sfx_mu_ffvgilgamesh)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka9:
+		{
+			func_switchmusic(sfx_mu_earthboundhippie)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka10:
+		{
+			func_switchmusic(sfx_mu_vvvvvvpushingonwards)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka11:
+		{
+			func_switchmusic(sfx_mu_themeofpuyopuyo)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka11b:
+		{
+			func_switchmusic(sfx_mu_stickerofpuyopuyo)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka12:
+		{
+			func_switchmusic(sfx_mu_tfivdownrightattack)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka13:
+		{
+			func_switchmusic(sfx_mu_mm2wily1)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka14:
+		{
+			func_switchmusic(sfx_mu_hardcorpssimon1994rd)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka15:
+		{
+			func_switchmusic(sfx_mu_rs3thebattle)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka16:
+		{
+			func_switchmusic(sfx_mu_zerorangersea)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka17:
+		{
+			func_switchmusic(sfx_mu_neverballtrack3)
+			global.SHOW_TIMER = false
+			global.OUT_OF_BOUNDS_MEASURE = "wrap"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka18:
+		{
+			func_switchmusic(sfx_mu_neverballtrack3)
+			global.SHOW_TIMER = false
+			global.OUT_OF_BOUNDS_MEASURE = "wrap"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka19:
+		{
+			func_switchmusic(sfx_mu_wicked18tutorial)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka20:
+		{
+			func_switchmusic(sfx_mu_rs3fournobledevils2)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka21:
+		{
+			func_switchmusic(sfx_mu_wicked18tutorial)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka22:
+		{
+			func_switchmusic(sfx_mu_lufia2battle3)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka23:
+		{
+			func_switchmusic(sfx_mu_tfivairraid)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka23b:
+		{
+			func_switchmusic(sfx_mu_gradiusheavyblow)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka24:
+		{
+			func_switchmusic(sfx_mu_wicked18volcano)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka25:
+		{
+			func_switchmusic(sfx_mu_wicked18volcano)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka26:
+		{
+			func_switchmusic(sfx_mu_wicked18ocean)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
 		}
 		break
 	}

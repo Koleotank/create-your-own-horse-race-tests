@@ -14,7 +14,11 @@ function scr_step()
 			global.TIMER_MINUTES++
 		}
 	}
-	
+	with obj_pictureobstacleparent
+	{
+		if global.GAME_STATE != "paused"
+			event_user(0)
+	}
 	with obj_horseparent
 	{
 		if global.GAME_STATE == "normal"
@@ -55,6 +59,13 @@ function scr_step()
 		}
 	}
 	with obj_goopstatus
+	{
+		if global.GAME_STATE == "normal"
+		{
+			event_user(0)
+		}
+	}
+	with obj_tasershock
 	{
 		if global.GAME_STATE == "normal"
 		{
@@ -177,6 +188,11 @@ function scr_step()
 			event_user(0)
 	}
 	with obj_hrtworldtext
+	{
+		if global.GAME_STATE != "paused"
+			event_user(0)
+	}
+	with obj_crepusculekill
 	{
 		if global.GAME_STATE != "paused"
 			event_user(0)

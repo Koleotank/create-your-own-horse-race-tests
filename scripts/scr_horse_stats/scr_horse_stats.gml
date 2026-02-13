@@ -832,5 +832,872 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.46)
 		}
 		break
+		case "Pollyanna": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(145,114,229)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_pollyanna_win
+			losesprite = spr_gijinka_pollyanna_lose
+			portraitsprite = spr_horseportrait_pollyanna
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_pollyanna_win
+			winsound = sfx_pkfire
+			jinglelength = func_secondstoframes(8.69)
+		}
+		break
+		case "Tree Line": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(17,56,19)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.5*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_treeline_win
+			losesprite = spr_gijinka_treeline_lose
+			portraitsprite = spr_horseportrait_treeline
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_treeline_win
+			winsound = sfx_hellothere
+			jinglelength = func_secondstoframes(8.89)
+		}
+		break
+		case "Sunfall": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(17,56,19)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.1*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_sunfall_win
+			losesprite = spr_gijinka_sunfall_lose
+			portraitsprite = spr_horseportrait_sunfall
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_sunfall_win
+			winsound = sfx_touhouextend
+			jinglelength = func_secondstoframes(15.6)
+		}
+		break
+		case "Pat The P": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(153,103,253)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_pat_win
+			losesprite = spr_gijinka_pat_lose
+			portraitsprite = spr_horseportrait_pat
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_pat_win
+			winsound = sfx_patwhat
+			jinglelength = func_secondstoframes(7.26)
+		}
+		break
+		case "Waste Of Space": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(12,11,166)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 0.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_wasteofspace_win
+			losesprite = spr_gijinka_wasteofspace_lose
+			portraitsprite = spr_horseportrait_wasteofspace
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_wasteofspace_win
+			winsound = sfx_random2kkinoise
+			jinglelength = func_secondstoframes(12.01)
+		}
+		break
+		case "Hell's Bells": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(206,88,112)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_hellsbells_win
+			losesprite = spr_gijinka_hellsbells_lose
+			portraitsprite = spr_gijinkaportrait_hellsbells
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_hellsbells_win
+			winsound = sfx_yesss
+			jinglelength = func_secondstoframes(6.32)
+		}
+		break
+		case "Spiked Universal Nerman": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,68,0)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_spikeduniversalnerman_win
+			losesprite = spr_gijinka_spikeduniversalnerman_lose
+			portraitsprite = spr_horseportrait_spikeduniversalnerman
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_spikeduniversalnerman_win
+			winsound = sfx_nermanmeow
+			jinglelength = func_secondstoframes(8.74)
+		}
+		break
+		case "Task Failed Successfully": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,91,91)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.95*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_taskfailedsuccessfully_win
+			losesprite = spr_gijinka_taskfailedsuccessfully_lose
+			portraitsprite = spr_horseportrait_taskfailedsuccessfully
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_taskfailedsuccessfully_win
+			winsound = sfx_yumenikki
+			jinglelength = func_secondstoframes(12.01)
+		}
+		break
+		case "Shitass?": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(72,0,255)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 0.8
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_shitass_winlose
+			losesprite = spr_gijinka_shitass_winlose
+			portraitsprite = spr_horseportrait_shitass
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_shitass_win
+			winsound = sfx_maltigiscream
+			jinglelength = func_secondstoframes(5.69)
+		}
+		break
+		case "Cereal Box": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(178,15,253)
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cerealbox_win
+			losesprite = spr_gijinka_cerealbox_lose
+			portraitsprite = spr_gijinkaportrait_cerealbox
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_cerealbox_win
+			winsound = sfx_animewow
+			jinglelength = func_secondstoframes(7.44)
+		}
+		break
+		case "Looking For Love": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(12,175,181)
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 2.25
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cyan_win
+			losesprite = spr_gijinka_cyan_lose
+			portraitsprite = spr_horseportrait_cyan
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_cyan
+			winsound = sfx_goddayum
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Shadow Lady Estate": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(0,63,63)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 2.25
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_knifemare_win
+			losesprite = spr_gijinka_knifemare_lose
+			portraitsprite = spr_horseportrait_nighttimeknifemare
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_nighttimeknifemare
+			winsound = sfx_2kkilaugh
+			jinglelength = func_secondstoframes(6.6)
+		}
+		break
+		case "Capri Eclipse": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(44,101,199)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_capri_win
+			losesprite = spr_gijinka_capri_lose
+			portraitsprite = spr_horseportrait_capri
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_caprieclipse_win
+			winsound = sfx_capriHEY
+			jinglelength = func_secondstoframes(9.4)
+		}
+		break
+		case "Raining Roses": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(168,34,50)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_rosie_win
+			losesprite = spr_gijinka_rosie_lose
+			portraitsprite = spr_gijinkaportrait_rosie
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_rosie_win
+			winsound = sfx_chipmunklaugh
+			jinglelength = func_secondstoframes(4.2)
+		}
+		break
+		case "Liar Liar Pants Ablaze": // plasticine gijinka
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_plasticine_win
+			losesprite = spr_gijinka_plasticine_lose
+			portraitsprite = spr_horseportrait_plasticineentity
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			secondwinsound = sfx_horseglitch
+			winsound = sfx_chipmunklaugh
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Pod Ball Chair": // plasticine gijinka
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+
+			knockbackresistance = 0
+			defaultmovespeed = 0.001
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_egg
+			losesprite = spr_gijinka_egg
+			portraitsprite = spr_horseportrait_plasticineentity
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			winsound = sfx_null
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Liar Eggsaggerate": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			knockbackresistance = 5
+			defaultmovespeed = 2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			bodycolor = make_color_rgb(0,179,179)
+			customstepsound = sfx_null
+			customhorsecollidesound = sfx_null
+			winsprite = spr_gijinka_peteggy_win
+			winsprite = spr_gijinka_peteggy_lose
+			portraitsprite = spr_horseportrait_peteggy
+			portraitbgsprite = gijinka_winscreen
+			winsound = sfx_chipmunklaugh
+			secondwinsound = sfx_horseglitch
+			winjingle = sfx_null
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Limestone Effodient": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(132,84,232)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_limestone_win
+			losesprite = spr_gijinka_limestone_lose
+			portraitsprite = spr_horseportrait_limestone
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_null
+			winsound = sfx_limestone_muahahaha
+			jinglelength = func_secondstoframes(4)
+		}
+		break
+		case "Crepuscule": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(205,2,63)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 3*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_crepuscule_win
+			losesprite = spr_gijinka_crepuscule_lose
+			portraitsprite = spr_horseportrait_crepuscule
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_crepuscule_win
+			winsound = sfx_fooxiacry
+			jinglelength = func_secondstoframes(9.92)
+		}
+		break
+		case "Tsukurimashou": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,175,255)
+			
+			knockbackresistance = 0.1
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_comely_win
+			losesprite = spr_gijinka_comely_lose
+			portraitsprite = spr_horseportrait_comelymaterialmorning
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_comelymaterialmorning
+			winsound = sfx_azumanga_yay
+			jinglelength = func_secondstoframes(6)
+		}
+		break
+		case "Cheery Times": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(178,255,94)
+			
+			knockbackresistance = -0.3
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_cheerytimes_win
+			losesprite = spr_gijinka_cheerytimes_lose
+			portraitsprite = spr_horseportrait_cheerytimes
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_cheerytimes_win
+			winsound = sfx_stockhooray
+			jinglelength = func_secondstoframes(10.3)
+		}
+		break
+		case "All That Glitters": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(248,232,0)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_goldie_win
+			losesprite = spr_gijinka_goldie_lose
+			portraitsprite = spr_horseportrait_goldie
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_goldie_win
+			winsound = sfx_gold
+			jinglelength = func_secondstoframes(11.3)
+		}
+		break
+		case "Omega Mark": 
+		{
+			eyeframeamount = 2
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(255,0,0)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 2.8
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_omegamark_win
+			losesprite = spr_gijinka_omegamark_lose
+			portraitsprite = spr_gijinkaportrait_omegamark
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_omegamark_win
+			winsound = sfx_rpgmakerchime2
+			jinglelength = func_secondstoframes(9.6)
+		}
+		break
+		case "Treeflower Tapestry": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(233,47,36)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.4*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_tft_win
+			losesprite = spr_gijinka_tft_lose
+			portraitsprite = spr_horseportrait_tft
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_tft_win
+			winsound = sfx_tftHEYTHERE
+			jinglelength = func_secondstoframes(7.3)
+		}
+		break
+		case "Final Fantasy": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,255,255)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_superstitional_win
+			losesprite = spr_gijinka_superstitional_lose
+			portraitsprite = spr_horseportrait_superstitionalrealism
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_superstitionalrealism
+			winsound = sfx_gongaga
+			jinglelength = func_secondstoframes(6.5)
+		}
+		break
+		case "Bismuth Leadstone": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(41,41,45)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.8*1.4
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_bismuth_win
+			losesprite = spr_gijinka_bismuth_lose
+			portraitsprite = spr_horseportrait_bismuth
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_bismuth_win
+			winsound = sfx_GAYYY
+			jinglelength = func_secondstoframes(8)
+		}
+		break
+		case "Scorched Abnormality": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,75,0)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_abby_win
+			losesprite = spr_gijinka_abby_lose
+			portraitsprite = spr_gijinkaportrait_abby
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_abby_win
+			winsound = sfx_gunstarORYA
+			jinglelength = func_secondstoframes(5.5)
+		}
+		break
+		case "Riveting Flash": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(25,163,44)
+			
+			knockbackresistance = 0
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_rivet_win
+			losesprite = spr_gijinka_rivet_lose
+			portraitsprite = spr_horseportrait_rivet
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_rivet_win
+			winsound = sfx_gunstarORCHHIT
+			jinglelength = func_secondstoframes(6.85)
+		}
+		break
 	}
 }
