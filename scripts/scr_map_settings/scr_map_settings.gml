@@ -8,7 +8,7 @@ function scr_map_settings(argument0)
 	//wrap: makes horses reappear at the opposite side of the room
 	//nothing: does nothing, use if leaving the room boundaries is intended behavior
 	global.MUSIC_DELAY = 30 //how many frames the map music is initially delayed for
-	global.REMAINING_WIN_SLOTS = 1 //how many horses can win the race. doesn't apply for paradise fishing (yet)
+	global.REMAINING_WIN_SLOTS = 1 //how many horses can win the race. doesn't apply for paradise fishing or basketball
 	global.SHOW_TIMER = true //displays the timer if enabled
 	
 	switch argument0
@@ -393,6 +393,14 @@ function scr_map_settings(argument0)
 		case rm_gijinka26:
 		{
 			func_switchmusic(sfx_mu_wicked18ocean)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka27:
+		{
+			func_switchmusic(sfx_mu_mineswplusfinalboss10)
 			global.SHOW_TIMER = false
 			//global.COUNTDOWN_SKIPTO = 419
 			//global.REMAINING_WIN_SLOTS = 75
