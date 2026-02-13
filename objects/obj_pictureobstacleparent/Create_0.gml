@@ -2,7 +2,6 @@ depth = 20
 
 event_inherited()
 func_collisioninit()
-func_collisioninit_pointdir()
 
 iscollided = false;
 vsp = 0
