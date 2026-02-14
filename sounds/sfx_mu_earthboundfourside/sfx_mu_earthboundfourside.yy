@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sfx_mu_earthboundfourside.wav",
-  "volume":0.56,
+  "volume":0.69,
 }
