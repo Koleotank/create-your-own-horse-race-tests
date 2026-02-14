@@ -197,4 +197,10 @@ function scr_step()
 		if global.GAME_STATE != "paused"
 			event_user(0)
 	}
+	with obj_overlayparent
+	{
+		if global.GAME_STATE != "paused"
+			self.image_speed = 1
+		else self.image_speed = 0
+	}
 }
