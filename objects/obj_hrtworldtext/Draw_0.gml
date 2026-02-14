@@ -9,7 +9,9 @@ gpu_set_stencil_ref(0) // SWAP
 gpu_set_alphatestenable(true)
 gpu_set_alphatestref(127)
             
-with(obj_mapparent) draw_sprite(self.sprite_index,-1,0,0);
+with(obj_mapparent) {
+	if(!scr_compare(object_get_parent(self.object_index),obj_pictureobstacleparent)) draw_sprite(self.sprite_index,-1,0,0);
+}
 gpu_set_colorwriteenable(true,true,true,true)
 gpu_set_alphatestenable(false)
     

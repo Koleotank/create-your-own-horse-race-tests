@@ -1699,5 +1699,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.85)
 		}
 		break
+		case "Patient Patta": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,102,152)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_patta_win
+			losesprite = spr_gijinka_patta_lose
+			portraitsprite = spr_horseportrait_patta
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_patta_win
+			winsound = sfx_sm64mario
+			jinglelength = func_secondstoframes(7.3)
+		}
+		break
 	}
 }
