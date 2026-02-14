@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gijinka_spikeduniversalnerman",
+  "%Name":"obj_goal_valentines",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gijinka_spikeduniversalnerman",
+  "name":"obj_goal_valentines",
   "overriddenProperties":[],
   "parent":{
-    "name":"gijinkas",
-    "path":"folders/Objects/horses/gijinkas.yy",
+    "name":"goals",
+    "path":"folders/Objects/goals.yy",
   },
   "parentObjectId":{
-    "name":"obj_horseparent",
-    "path":"objects/obj_horseparent/obj_horseparent.yy",
+    "name":"obj_goal",
+    "path":"objects/obj_goal/obj_goal.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gijinka_spikeduniversalnerman",
-    "path":"sprites/spr_gijinka_spikeduniversalnerman/spr_gijinka_spikeduniversalnerman.yy",
+    "name":"spr_goal_valentines",
+    "path":"sprites/spr_goal_valentines/spr_goal_valentines.yy",
   },
   "spriteMaskId":null,
   "visible":true,
