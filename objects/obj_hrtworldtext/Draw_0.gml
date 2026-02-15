@@ -10,7 +10,7 @@ gpu_set_alphatestenable(true)
 gpu_set_alphatestref(127)
             
 with(obj_mapparent) {
-	if(!scr_compare(object_get_parent(self.object_index),obj_pictureobstacleparent)) draw_sprite(self.sprite_index,-1,0,0);
+	if(!scr_compare(object_get_parent(self.object_index),obj_pictureobstacleparent, obj_gate, obj_gate_classic, obj_pinball)) draw_sprite(self.sprite_index,-1,0,0);
 }
 gpu_set_colorwriteenable(true,true,true,true)
 gpu_set_alphatestenable(false)
