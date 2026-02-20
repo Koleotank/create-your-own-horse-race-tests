@@ -1730,5 +1730,67 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(7.3)
 		}
 		break
+		case "Millennial Joke": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,255,0)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.5*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_millennialjoke
+			losesprite = spr_gijinka_millennialjoke
+			portraitsprite = spr_gijinkaportrait_millennialjoke
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_millennialjoke_win
+			winsound = sfx_tada
+			jinglelength = func_secondstoframes(11.75)
+		}
+		break
+		case "Mighty Horse Fall": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(226,36,36)
+			
+			knockbackresistance = -0.2
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_mhf_win
+			losesprite = spr_gijinka_mhf_lose
+			portraitsprite = spr_gijinkaportrait_mhf
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_mhf_win
+			winsound = sfx_tacobell
+			jinglelength = func_secondstoframes(8.75)
+		}
+		break
 	}
 }

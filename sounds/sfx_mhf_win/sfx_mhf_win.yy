@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_mu_mineswplusfinalboss10",
+  "%Name":"sfx_mhf_win",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":275.72498,
+  "duration":8.75,
   "exportDir":"",
-  "name":"sfx_mu_mineswplusfinalboss10",
+  "name":"sfx_mhf_win",
   "parent":{
-    "name":"gijinka",
-    "path":"folders/Sounds/music/gijinka.yy",
+    "name":"gijinkas",
+    "path":"folders/Sounds/win jingles/gijinkas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_mu_mineswplusfinalboss10.mp3",
-  "volume":0.35,
+  "soundFile":"sfx_mhf_win.wav",
+  "volume":0.8,
 }

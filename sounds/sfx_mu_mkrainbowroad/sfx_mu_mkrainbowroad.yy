@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_mu_mineswplusfinalboss10",
+  "%Name":"sfx_mu_mkrainbowroad",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":275.72498,
+  "duration":111.001,
   "exportDir":"",
-  "name":"sfx_mu_mineswplusfinalboss10",
+  "name":"sfx_mu_mkrainbowroad",
   "parent":{
     "name":"gijinka",
     "path":"folders/Sounds/music/gijinka.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_mu_mineswplusfinalboss10.mp3",
-  "volume":0.35,
+  "soundFile":"sfx_mu_mkrainbowroad.mp3",
+  "volume":0.63,
 }

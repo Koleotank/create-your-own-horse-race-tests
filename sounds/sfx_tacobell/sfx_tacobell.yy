@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_mu_mineswplusfinalboss10",
+  "%Name":"sfx_tacobell",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":275.72498,
+  "duration":1.9080045,
   "exportDir":"",
-  "name":"sfx_mu_mineswplusfinalboss10",
+  "name":"sfx_tacobell",
   "parent":{
-    "name":"gijinka",
-    "path":"folders/Sounds/music/gijinka.yy",
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_mu_mineswplusfinalboss10.mp3",
-  "volume":0.35,
+  "soundFile":"sfx_tacobell.mp3",
+  "volume":0.61,
 }
