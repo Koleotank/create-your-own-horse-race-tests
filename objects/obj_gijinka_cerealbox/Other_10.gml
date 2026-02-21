@@ -1,8 +1,5 @@
-event_inherited()
-
 if kill_time>0
 {
-	sprite_index=spr_gijinka_cerealbox_EAT
 	
 	var _jitteringX = random_range(-3.5,3.5)*(kill_time*0.03)
 	var _jitteringY = random_range(-3.5,3.5)*(kill_time*0.03)
@@ -20,19 +17,22 @@ if kill_time>0
 else
 {
 	sprite_index=spr_gijinka_cerealbox
+	mask_index=spr_gijinka_cerealbox
 	killing_x=x
 	killing_y=y
+	image_blend=c_white
 }
 
-if place_meeting(x+hsp,y+vsp,obj_horseparent)
+if func_placemeetingpath(x+hsp,y+vsp,obj_horseparent)
 {
 	is_killing=true
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent);
+	var _collidingobject = func_instanceplacepath(x+hsp,y+vsp,obj_horseparent);
 	switch(_collidingobject.horseidentity) {
 		default:
 		{
 			if is_killing && round(random_range(1,8))==1
 			{
+				sprite_index=spr_gijinka_cerealbox_EAT
 				kill_time = 30
 				audio_play_sound(sfx_CHOMP,10,false)
 				instance_destroy(_collidingobject)
@@ -44,7 +44,12 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent)
 		{
 			if is_killing
 			{
+				sprite_index=spr_gijinka_cerealbox_lose
+				image_blend=make_colour_rgb(255,0,0);
+				mask_index=spr_null
+				kill_time = 70
 				knockbackrecieved = 8
+				_collidingobject.parry_time=30
 				audio_play_sound(sfx_blockhit,10,false)
 				is_killing = false
 			}
@@ -52,3 +57,5 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent)
 		break
 	}
 }
+
+event_inherited()
