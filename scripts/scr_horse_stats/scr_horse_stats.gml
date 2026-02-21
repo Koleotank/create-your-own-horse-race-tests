@@ -1310,6 +1310,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			accelerationamount = 0;
 			hasdasheffect = 0;
 			
+			bodycolor = make_color_rgb(255,216,0)
+			
 			//angleincrementdirectionmin = -2.5
 			angleincrementdirectionmin = -3
 			//angleincrementdirectionmax = 2.5
@@ -1318,7 +1320,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			winsprite = spr_gijinka_egg
 			losesprite = spr_gijinka_egg
-			portraitsprite = spr_horseportrait_plasticineentity
+			portraitsprite = spr_gijinkaportrait_egg
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_null
 			winsound = sfx_null
