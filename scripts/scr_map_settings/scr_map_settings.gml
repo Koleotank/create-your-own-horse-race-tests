@@ -446,5 +446,13 @@ function scr_map_settings(argument0)
 			//global.REMAINING_WIN_SLOTS = 75
 		}
 		break
+		case rm_gijinka33:
+		{
+			func_switchmusic(sfx_mu_lufia2battle2)
+			global.SHOW_TIMER = false
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
 	}
 }

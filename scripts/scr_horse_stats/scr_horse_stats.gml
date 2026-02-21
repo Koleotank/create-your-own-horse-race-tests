@@ -1365,6 +1365,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
+			winname = "The Hermit"
+			
 			bodycolor = make_color_rgb(132,84,232)
 			
 			knockbackresistance = -1
