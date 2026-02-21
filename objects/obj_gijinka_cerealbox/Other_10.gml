@@ -1,3 +1,5 @@
+event_inherited()
+
 if kill_time>0
 {
 	
@@ -57,5 +59,3 @@ if func_placemeetingpath(x+hsp,y+vsp,obj_horseparent)
 		break
 	}
 }
-
-event_inherited()
