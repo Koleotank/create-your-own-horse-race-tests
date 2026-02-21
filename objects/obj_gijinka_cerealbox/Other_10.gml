@@ -42,11 +42,10 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent)
 		break
 		case "Felis TNT":
 		{
-			if is_killing && round(random_range(1,8))==1
+			if is_killing
 			{
 				knockbackrecieved = 8
-				audio_play_sound(sfx_CHOMP,10,false)
-				instance_destroy(_collidingobject)
+				audio_play_sound(sfx_blockhit,10,false)
 				is_killing = false
 			}
 		}
