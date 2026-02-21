@@ -28,11 +28,28 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent)
 {
 	is_killing=true
 	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent);
-	if is_killing && round(random_range(1,8))==1
-	{
-		kill_time = 30
-		audio_play_sound(sfx_CHOMP,10,false)
-		instance_destroy(_collidingobject)
-		is_killing = false
+	switch(_collidingobject.horseidentity) {
+		default:
+		{
+			if is_killing && round(random_range(1,8))==1
+			{
+				kill_time = 30
+				audio_play_sound(sfx_CHOMP,10,false)
+				instance_destroy(_collidingobject)
+				is_killing = false
+			}
+		}
+		break
+		case "Felis TNT":
+		{
+			if is_killing && round(random_range(1,8))==1
+			{
+				knockbackrecieved = 8
+				audio_play_sound(sfx_CHOMP,10,false)
+				instance_destroy(_collidingobject)
+				is_killing = false
+			}
+		}
+		break
 	}
 }
