@@ -1,11 +1,8 @@
-/// @description controlled step event
-// You can write your code in this editor
-//repeat (150)
-var _width = sprite_get_width(sprite_index);
-var _height = sprite_get_height(sprite_index);
-// ((i % i_max) + i_max) % i_max;
-if(x<0 || x>=sprite_get_width(sprite_index)) x=((x%_width)+_width)%_width
-if(y<0 || y>=sprite_get_height(sprite_index)) y=((y%_height)+_height)%_height
-
-x-=0.2
-y+=0.1
+if(instance_exists(obj_winninghorse)) && !is_won
+{
+	with(obj_mapparent) 
+	{
+		if(!scr_compare(object_get_parent(self.object_index),obj_pictureobstacleparent, obj_gate, obj_gate_classic, obj_pinball)) self.image_alpha=1
+	}	
+	is_won = true
+}

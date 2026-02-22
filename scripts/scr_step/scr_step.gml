@@ -203,4 +203,10 @@ function scr_step()
 			self.image_speed = 1
 		else self.image_speed = 0
 	}
+	with obj_unveilcircle
+	{
+		if global.GAME_STATE != "paused"
+			self.image_speed = 1
+		else self.image_speed = 0
+	}
 }
