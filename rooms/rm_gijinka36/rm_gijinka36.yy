@@ -12,9 +12,9 @@
     {"name":"inst_197FE053_1","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
     {"name":"inst_731B141F1","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
     {"name":"inst_EE8C412_1","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
+    {"name":"inst_14053754","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
     {"name":"inst_532CC1A4","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
     {"name":"inst_730F533A","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
-    {"name":"inst_14053754","path":"rooms/rm_gijinka36/rm_gijinka36.yy",},
   ],
   "isDnd":false,
   "layers":[
