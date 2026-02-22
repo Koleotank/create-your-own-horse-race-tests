@@ -9,8 +9,10 @@ function func_ballpass(_checkforhorse)
 	{
 		currentpass = _checkforhorse.horseidentity
 		bodycolor = _checkforhorse.bodycolor
+		bodycolor_b = _checkforhorse.bodycolor_b
 		winsound = _checkforhorse.winsound
 		winjingle = _checkforhorse.winjingle
+		multicolor = _checkforhorse.multicolor
 	}
 }
 function func_performcollision(_checkforhorse=obj_mapparent)

@@ -36,6 +36,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 	xscaleflipspeed = 0.1
 	
 	bodycolor = make_color_rgb(17,240,13) //color that is used for win screen text & ball color
+	bodycolor_b = make_color_rgb(17,240,13) //second color that is used for win screen text & ball color
 	customstepsound = sfx_step
 	customhorsecollidesound = sfx_horsecollide
 	eyesprite = spr_horse_defaultdearly_eyes
@@ -52,6 +53,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 	hiddenindarkness = false
 	
 	soundvariance = 0.2
+	multicolor = false
 	
 	switch _givenidentity
 	{
@@ -810,6 +812,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 		break
 		case "A Remembered Dream":
 		{
+			multicolor = true
+			
 			overtimeaccelerationamount = 1/func_minutestoframes(2)
 			hasdasheffect = false
 			
@@ -821,6 +825,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			knockbackresistance = 0
 			
 			bodycolor = make_color_rgb(82,82,82)
+			bodycolor_b = make_color_rgb(0,255,255)
 			eyesprite = spr_horse_aremembereddream_eyes
 			winsprite = horse_aremembereddream_win
 			losesprite = horse_aremembereddream_lose_proper
@@ -1736,12 +1741,15 @@ function scr_horse_stats(_givenidentity,_room=room)
 		break
 		case "Millennial Joke": 
 		{
+			multicolor = true
+			
 			eyeframeamount = 8
 			spritemergedwitheyedirection = true
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
 			bodycolor = make_color_rgb(255,255,0)
+			bodycolor_b = make_color_rgb(255,20,202)
 			
 			knockbackresistance = -1
 			defaultmovespeed = 1.5*1.5

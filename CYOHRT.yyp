@@ -642,6 +642,7 @@
     {"id":{"name":"spr_announcer","path":"sprites/spr_announcer/spr_announcer.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_ball_coloring","path":"sprites/spr_ball_coloring/spr_ball_coloring.yy",},},
+    {"id":{"name":"spr_ball_gradient","path":"sprites/spr_ball_gradient/spr_ball_gradient.yy",},},
     {"id":{"name":"spr_ball_outline","path":"sprites/spr_ball_outline/spr_ball_outline.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"spr_bg_rgbcrystals","path":"sprites/spr_bg_rgbcrystals/spr_bg_rgbcrystals.yy",},},

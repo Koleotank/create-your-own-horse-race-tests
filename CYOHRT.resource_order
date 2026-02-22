@@ -582,6 +582,7 @@
     {"name":"spr_announcer","order":1,"path":"sprites/spr_announcer/spr_announcer.yy",},
     {"name":"spr_arrow","order":10,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"spr_ball_coloring","order":31,"path":"sprites/spr_ball_coloring/spr_ball_coloring.yy",},
+    {"name":"spr_ball_gradient","order":1,"path":"sprites/spr_ball_gradient/spr_ball_gradient.yy",},
     {"name":"spr_ball_outline","order":30,"path":"sprites/spr_ball_outline/spr_ball_outline.yy",},
     {"name":"spr_ball","order":29,"path":"sprites/spr_ball/spr_ball.yy",},
     {"name":"spr_bg_rgbcrystals","order":39,"path":"sprites/spr_bg_rgbcrystals/spr_bg_rgbcrystals.yy",},
