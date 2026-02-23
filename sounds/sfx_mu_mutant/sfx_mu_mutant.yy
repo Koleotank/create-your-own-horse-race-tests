@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":80.06531,
+  "duration":80.04025,
   "name":"sfx_mu_mutant",
   "parent":{
     "name":"music",

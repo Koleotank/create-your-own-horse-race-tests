@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":49.841633,
+  "duration":49.790997,
   "name":"sfx_mu_racepinball1",
   "parent":{
     "name":"music",

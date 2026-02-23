@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":9.06449,
+  "duration":9.031996,
   "name":"sfx_thunder3",
   "parent":{
     "name":"Sounds",

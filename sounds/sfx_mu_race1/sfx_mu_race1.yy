@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":12.852245,
+  "duration":12.810998,
   "name":"sfx_mu_race1",
   "parent":{
     "name":"music",

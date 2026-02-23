@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.739592,
+  "duration":6.7126756,
   "name":"sfx_winjingle_nighttimeknifemare",
   "parent":{
     "name":"win jingles",

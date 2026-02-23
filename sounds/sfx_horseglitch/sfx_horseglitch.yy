@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.168,
+  "duration":3.14,
   "name":"sfx_horseglitch",
   "parent":{
     "name":"Sounds",

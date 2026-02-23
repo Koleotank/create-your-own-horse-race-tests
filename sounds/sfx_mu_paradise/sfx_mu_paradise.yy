@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":96.096,
+  "duration":96.05102,
   "name":"sfx_mu_paradise",
   "parent":{
     "name":"music",

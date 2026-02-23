@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":27.715918,
+  "duration":27.687483,
   "name":"sfx_mu_victory2",
   "parent":{
     "name":"music",

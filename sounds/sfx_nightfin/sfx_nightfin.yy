@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.940408,
+  "duration":0.8919955,
   "name":"sfx_nightfin",
   "parent":{
     "name":"Sounds",

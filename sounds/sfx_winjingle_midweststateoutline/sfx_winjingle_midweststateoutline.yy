@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.016,
+  "duration":4.9746714,
   "name":"sfx_winjingle_midweststateoutline",
   "parent":{
     "name":"win jingles",

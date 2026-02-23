@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.156735,
+  "duration":0.12800454,
   "name":"sfx_nightmarecollide",
   "parent":{
     "name":"Sounds",

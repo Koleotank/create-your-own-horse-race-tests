@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.648617,
+  "duration":1.6486168,
   "name":"sfx_shine",
   "parent":{
     "name":"Sounds",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.407347,
+  "duration":5.357007,
   "name":"sfx_thunderbig1",
   "parent":{
     "name":"Sounds",

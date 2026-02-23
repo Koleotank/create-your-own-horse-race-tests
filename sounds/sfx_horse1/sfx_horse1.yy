@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.344,
+  "duration":1.3020182,
   "name":"sfx_horse1",
   "parent":{
     "name":"Sounds",

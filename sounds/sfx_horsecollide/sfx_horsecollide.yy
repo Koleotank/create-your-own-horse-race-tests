@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.24,
+  "duration":0.2140136,
   "name":"sfx_horsecollide",
   "parent":{
     "name":"Sounds",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.392,
+  "duration":1.3630159,
   "name":"sfx_nightmare2",
   "parent":{
     "name":"Sounds",

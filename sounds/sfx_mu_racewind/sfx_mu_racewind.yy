@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.989388,
+  "duration":36.950996,
   "name":"sfx_mu_racewind",
   "parent":{
     "name":"music",

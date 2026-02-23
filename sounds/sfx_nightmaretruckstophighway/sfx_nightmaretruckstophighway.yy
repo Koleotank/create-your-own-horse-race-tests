@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.888,
+  "duration":0.8580045,
   "name":"sfx_nightmaretruckstophighway",
   "parent":{
     "name":"Sounds",

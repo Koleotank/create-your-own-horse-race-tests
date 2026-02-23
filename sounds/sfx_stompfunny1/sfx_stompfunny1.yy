@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.48,
+  "duration":0.44501135,
   "name":"sfx_stompfunny1",
   "parent":{
     "name":"Sounds",

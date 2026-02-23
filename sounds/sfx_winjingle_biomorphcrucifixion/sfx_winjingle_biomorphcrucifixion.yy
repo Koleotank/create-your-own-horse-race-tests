@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.919796,
+  "duration":6.919773,
   "name":"sfx_winjingle_biomorphcrucifixion",
   "parent":{
     "name":"win jingles",

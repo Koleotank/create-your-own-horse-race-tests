@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.216,
+  "duration":0.1859864,
   "name":"sfx_step",
   "parent":{
     "name":"Sounds",
