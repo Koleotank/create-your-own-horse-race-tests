@@ -7,6 +7,7 @@ horseidentity = "Ball"
 currentpass = "Default Dearly"
 
 soundvariance = 0.2
+multicolor = false
 
 currentmovespeed = 0
 //targetangle = -22.5
@@ -47,6 +48,7 @@ afterimagecooldown = 0
 dashlinecooldown = 0
 
 bodycolor = make_color_rgb(243,119,0)
+bodycolor_b = make_color_rgb(243,119,0)
 customstepsound = sfx_ball
 customhorsecollidesound = sfx_horsecollide
 eyesprite = spr_null

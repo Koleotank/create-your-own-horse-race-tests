@@ -36,6 +36,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 	xscaleflipspeed = 0.1
 	
 	bodycolor = make_color_rgb(17,240,13) //color that is used for win screen text & ball color
+	bodycolor_b = make_color_rgb(17,240,13) //second color that is used for win screen text & ball color
 	customstepsound = sfx_step
 	customhorsecollidesound = sfx_horsecollide
 	eyesprite = spr_horse_defaultdearly_eyes
@@ -52,6 +53,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 	hiddenindarkness = false
 	
 	soundvariance = 0.2
+	multicolor = false
 	
 	switch _givenidentity
 	{
@@ -810,6 +812,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 		break
 		case "A Remembered Dream":
 		{
+			multicolor = true
+			
 			overtimeaccelerationamount = 1/func_minutestoframes(2)
 			hasdasheffect = false
 			
@@ -821,6 +825,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			knockbackresistance = 0
 			
 			bodycolor = make_color_rgb(82,82,82)
+			bodycolor_b = make_color_rgb(0,255,255)
 			eyesprite = spr_horse_aremembereddream_eyes
 			winsprite = horse_aremembereddream_win
 			losesprite = horse_aremembereddream_lose_proper
@@ -1310,6 +1315,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			accelerationamount = 0;
 			hasdasheffect = 0;
 			
+			bodycolor = make_color_rgb(255,216,0)
+			
 			//angleincrementdirectionmin = -2.5
 			angleincrementdirectionmin = -3
 			//angleincrementdirectionmax = 2.5
@@ -1318,7 +1325,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			winsprite = spr_gijinka_egg
 			losesprite = spr_gijinka_egg
-			portraitsprite = spr_horseportrait_plasticineentity
+			portraitsprite = spr_gijinkaportrait_egg
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_null
 			winsound = sfx_null
@@ -1364,6 +1371,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			spritemergedwitheyedirection = true
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
+			
+			winname = "The Hermit"
 			
 			bodycolor = make_color_rgb(132,84,232)
 			
@@ -1697,6 +1706,133 @@ function scr_horse_stats(_givenidentity,_room=room)
 			winjingle = sfx_rivet_win
 			winsound = sfx_gunstarORCHHIT
 			jinglelength = func_secondstoframes(6.85)
+		}
+		break
+		case "Patient Patta": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,102,152)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_patta_win
+			losesprite = spr_gijinka_patta_lose
+			portraitsprite = spr_horseportrait_patta
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_patta_win
+			winsound = sfx_sm64mario
+			jinglelength = func_secondstoframes(7.3)
+		}
+		break
+		case "Millennial Joke": 
+		{
+			multicolor = true
+			
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,255,0)
+			bodycolor_b = make_color_rgb(255,20,202)
+			
+			knockbackresistance = -1
+			defaultmovespeed = 1.5*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_millennialjoke
+			losesprite = spr_gijinka_millennialjoke
+			portraitsprite = spr_gijinkaportrait_millennialjoke
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_millennialjoke_win
+			winsound = sfx_tada
+			jinglelength = func_secondstoframes(11.75)
+		}
+		break
+		case "Mighty Horse Fall": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(226,36,36)
+			
+			knockbackresistance = -0.2
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_mhf_win
+			losesprite = spr_gijinka_mhf_lose
+			portraitsprite = spr_gijinkaportrait_mhf
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_mhf_win
+			winsound = sfx_tacobell
+			jinglelength = func_secondstoframes(8.75)
+		}
+		break
+		case "Felis TNT": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,179,179)
+			
+			knockbackresistance = -1.3
+			defaultmovespeed = 1.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_minerva_win
+			losesprite = spr_gijinka_minerva_lose
+			portraitsprite = spr_horseportrait_minerva
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_minerva_win
+			winsound = sfx_nermanmeow
+			jinglelength = func_secondstoframes(7.34)
 		}
 		break
 	}

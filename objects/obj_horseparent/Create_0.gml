@@ -43,6 +43,7 @@ afterimagecooldown = 0
 dashlinecooldown = 0
 
 bodycolor = make_color_rgb(17,240,13)
+bodycolor_b = make_color_rgb(17,240,13)
 customstepsound = sfx_step
 customhorsecollidesound = sfx_horsecollide
 eyesprite = spr_horse_defaultdearly_eyes

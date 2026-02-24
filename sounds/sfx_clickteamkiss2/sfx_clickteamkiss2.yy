@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_clickteamkiss2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.21954648,
+  "exportDir":"",
+  "name":"sfx_clickteamkiss2",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_clickteamkiss2.wav",
+  "volume":0.6,
+}

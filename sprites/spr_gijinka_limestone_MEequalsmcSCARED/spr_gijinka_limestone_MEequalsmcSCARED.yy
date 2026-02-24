@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"endstate",
-    "path":"folders/Sprites/horses/gijinkas/endstate.yy",
+    "name":"misc",
+    "path":"folders/Sprites/horses/gijinkas/misc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
