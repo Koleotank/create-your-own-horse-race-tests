@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":146.2596,
   "exportDir":"",
   "name":"sfx_mu_racesanctuary",
   "parent":{
