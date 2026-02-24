@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.19099773,
+  "exportDir":"",
   "name":"sfx_eat",
   "parent":{
     "name":"Sounds",

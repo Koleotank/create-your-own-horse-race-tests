@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":1.3630159,
+  "exportDir":"",
   "name":"sfx_nightmare2",
   "parent":{
     "name":"Sounds",

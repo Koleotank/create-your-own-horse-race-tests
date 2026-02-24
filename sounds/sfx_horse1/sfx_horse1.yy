@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":1.3020182,
+  "exportDir":"",
   "name":"sfx_horse1",
   "parent":{
     "name":"Sounds",

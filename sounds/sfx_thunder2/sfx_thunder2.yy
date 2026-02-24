@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":5.7580047,
+  "exportDir":"",
   "name":"sfx_thunder2",
   "parent":{
     "name":"Sounds",

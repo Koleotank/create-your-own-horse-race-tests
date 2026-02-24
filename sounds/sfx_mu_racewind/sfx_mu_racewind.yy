@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":36.950996,
+  "exportDir":"",
   "name":"sfx_mu_racewind",
   "parent":{
     "name":"music",

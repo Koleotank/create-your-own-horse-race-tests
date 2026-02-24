@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":4.9746714,
+  "exportDir":"",
   "name":"sfx_winjingle_midweststateoutline",
   "parent":{
     "name":"win jingles",

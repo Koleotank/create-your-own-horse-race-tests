@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.13501135,
+  "exportDir":"",
   "name":"sfx_doorknobcollide",
   "parent":{
     "name":"Sounds",

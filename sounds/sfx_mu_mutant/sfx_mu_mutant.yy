@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":80.04025,
+  "exportDir":"",
   "name":"sfx_mu_mutant",
   "parent":{
     "name":"music",

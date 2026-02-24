@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.5240136,
+  "exportDir":"",
   "name":"sfx_doorknobwin",
   "parent":{
     "name":"Sounds",

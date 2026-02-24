@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":5.357007,
+  "exportDir":"",
   "name":"sfx_thunderbig1",
   "parent":{
     "name":"Sounds",

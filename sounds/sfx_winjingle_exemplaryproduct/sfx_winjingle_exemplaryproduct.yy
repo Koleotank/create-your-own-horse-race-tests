@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":9.559002,
+  "exportDir":"",
   "name":"sfx_winjingle_exemplaryproduct",
   "parent":{
     "name":"win jingles",

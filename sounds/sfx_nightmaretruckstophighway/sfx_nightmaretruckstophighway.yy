@@ -11,6 +11,7 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.8580045,
+  "exportDir":"",
   "name":"sfx_nightmaretruckstophighway",
   "parent":{
     "name":"Sounds",
