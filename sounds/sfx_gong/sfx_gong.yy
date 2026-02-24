@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.365442,
-  "exportDir":"",
+  "duration":1.3654422,
   "name":"sfx_gong",
   "parent":{
     "name":"Sounds",

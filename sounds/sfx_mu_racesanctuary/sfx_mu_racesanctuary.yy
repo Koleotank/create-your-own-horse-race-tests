@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":146.25957,
-  "exportDir":"",
+  "duration":0.0,
   "name":"sfx_mu_racesanctuary",
   "parent":{
     "name":"music",

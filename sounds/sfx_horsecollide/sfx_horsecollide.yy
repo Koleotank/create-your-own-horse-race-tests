@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.24,
-  "exportDir":"",
+  "duration":0.2140136,
   "name":"sfx_horsecollide",
   "parent":{
     "name":"Sounds",

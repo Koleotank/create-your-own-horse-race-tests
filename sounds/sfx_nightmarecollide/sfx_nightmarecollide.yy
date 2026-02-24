@@ -11,7 +11,6 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.12800454,
-  "exportDir":"",
   "name":"sfx_nightmarecollide",
   "parent":{
     "name":"Sounds",

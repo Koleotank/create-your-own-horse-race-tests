@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":12.852245,
-  "exportDir":"",
+  "duration":12.810998,
   "name":"sfx_mu_race1",
   "parent":{
     "name":"music",

@@ -11,7 +11,6 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":6.919773,
-  "exportDir":"",
   "name":"sfx_winjingle_biomorphcrucifixion",
   "parent":{
     "name":"win jingles",

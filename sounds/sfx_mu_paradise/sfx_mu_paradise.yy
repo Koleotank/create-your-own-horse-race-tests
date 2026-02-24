@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":96.096,
-  "exportDir":"",
+  "duration":96.05102,
   "name":"sfx_mu_paradise",
   "parent":{
     "name":"music",

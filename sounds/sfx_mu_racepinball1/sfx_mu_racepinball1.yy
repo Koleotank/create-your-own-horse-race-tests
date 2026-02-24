@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":49.841633,
-  "exportDir":"",
+  "duration":49.790997,
   "name":"sfx_mu_racepinball1",
   "parent":{
     "name":"music",

@@ -11,7 +11,6 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":3.14,
-  "exportDir":"",
   "name":"sfx_horseglitch",
   "parent":{
     "name":"Sounds",

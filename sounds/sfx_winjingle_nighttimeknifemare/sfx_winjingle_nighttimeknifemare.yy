@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.739592,
-  "exportDir":"",
+  "duration":6.7126756,
   "name":"sfx_winjingle_nighttimeknifemare",
   "parent":{
     "name":"win jingles",

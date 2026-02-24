@@ -11,7 +11,6 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.65099776,
-  "exportDir":"",
   "name":"sfx_flee",
   "parent":{
     "name":"Sounds",

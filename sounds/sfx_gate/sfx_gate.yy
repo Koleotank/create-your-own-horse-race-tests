@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.744,
-  "exportDir":"",
+  "duration":0.70201814,
   "name":"sfx_gate",
   "parent":{
     "name":"Sounds",

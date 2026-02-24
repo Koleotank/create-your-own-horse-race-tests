@@ -11,7 +11,6 @@
   "compressionQuality":4,
   "conversionMode":0,
   "duration":0.8919955,
-  "exportDir":"",
   "name":"sfx_nightfin",
   "parent":{
     "name":"Sounds",

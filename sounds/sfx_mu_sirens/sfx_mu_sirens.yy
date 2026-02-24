@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":31.47755,
-  "exportDir":"",
+  "duration":14.7925625,
   "name":"sfx_mu_sirens",
   "parent":{
     "name":"music",

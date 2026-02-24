@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.182857,
-  "exportDir":"",
+  "duration":0.14385487,
   "name":"sfx_gunbeep",
   "parent":{
     "name":"Sounds",

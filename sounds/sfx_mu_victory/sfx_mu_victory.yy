@@ -10,8 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":24.764082,
-  "exportDir":"",
+  "duration":24.715918,
   "name":"sfx_mu_victory",
   "parent":{
     "name":"music",
