@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_gijinka_matter1",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":1,
-  "bbox_right":30,
+  "bbox_left":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":0,
   "collisionTolerance":0,

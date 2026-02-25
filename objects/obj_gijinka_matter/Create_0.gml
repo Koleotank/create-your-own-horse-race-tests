@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited()
 
+cooldown = 10
+
 m_sprites = [
 	spr_gijinka_matter1,
 	spr_gijinka_matter2,
