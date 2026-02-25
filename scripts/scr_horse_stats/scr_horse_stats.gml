@@ -1835,5 +1835,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(7.34)
 		}
 		break
+		case "Iyazo Tajiri": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(14,232,14)
+			
+			knockbackresistance = -1.3
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_matter1_win
+			losesprite = spr_gijinka_matter1_lose
+			portraitsprite = spr_gijinkaportrait_matter1
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_matter1_win
+			winsound = sfx_nermanmeow
+			jinglelength = func_secondstoframes(7.34)
+		}
+		break
 	}
 }
