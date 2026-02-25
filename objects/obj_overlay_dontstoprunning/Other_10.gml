@@ -1,13 +1,9 @@
-if global.GAME_STATE == "normal"
+if global.GAME_STATE != "racesetup"
 {
 	is_triggered = true
 }
 if is_triggered
 {
-	/*
-	image_xscale -= 0.02
-	image_yscale -= 0.02
-	*/
 	shrinktween += shrinktweenspeed
 }
 //if image_xscale <= 0 || image_yscale <= 0
