@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_matter4_win",
+  "%Name":"sfx_pkmndex",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":11.911837,
+  "duration":0.6240136,
   "exportDir":"",
-  "name":"sfx_matter4_win",
+  "name":"sfx_pkmndex",
   "parent":{
-    "name":"gijinkas",
-    "path":"folders/Sounds/win jingles/gijinkas.yy",
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_matter4_win.mp3",
+  "soundFile":"sfx_pkmndex.wav",
   "volume":0.8,
 }

@@ -515,6 +515,7 @@
     {"id":{"name":"sfx_patta_win","path":"sounds/sfx_patta_win/sfx_patta_win.yy",},},
     {"id":{"name":"sfx_patwhat","path":"sounds/sfx_patwhat/sfx_patwhat.yy",},},
     {"id":{"name":"sfx_pkfire","path":"sounds/sfx_pkfire/sfx_pkfire.yy",},},
+    {"id":{"name":"sfx_pkmndex","path":"sounds/sfx_pkmndex/sfx_pkmndex.yy",},},
     {"id":{"name":"sfx_pollyanna_win","path":"sounds/sfx_pollyanna_win/sfx_pollyanna_win.yy",},},
     {"id":{"name":"sfx_pyb_eight","path":"sounds/sfx_pyb_eight/sfx_pyb_eight.yy",},},
     {"id":{"name":"sfx_pyb_five","path":"sounds/sfx_pyb_five/sfx_pyb_five.yy",},},

@@ -468,6 +468,7 @@
     {"name":"sfx_pat_win","order":4,"path":"sounds/sfx_pat_win/sfx_pat_win.yy",},
     {"name":"sfx_patta_win","order":22,"path":"sounds/sfx_patta_win/sfx_patta_win.yy",},
     {"name":"sfx_pkfire","order":4,"path":"sounds/sfx_pkfire/sfx_pkfire.yy",},
+    {"name":"sfx_pkmndex","order":35,"path":"sounds/sfx_pkmndex/sfx_pkmndex.yy",},
     {"name":"sfx_pyb_eight","order":3,"path":"sounds/sfx_pyb_eight/sfx_pyb_eight.yy",},
     {"name":"sfx_pyb_five","order":6,"path":"sounds/sfx_pyb_five/sfx_pyb_five.yy",},
     {"name":"sfx_pyb_four","order":7,"path":"sounds/sfx_pyb_four/sfx_pyb_four.yy",},
