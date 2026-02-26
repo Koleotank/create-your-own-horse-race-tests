@@ -1,6 +1,4 @@
 // Inherit the parent event
-event_inherited();
-
 if kill_time>0
 {
 	var _jitteringX = random_range(-3.5,3.5)*(kill_time*0.03)
@@ -15,6 +13,7 @@ if kill_time>0
 cryaboutit_time++
 
 if (cryaboutit_time == func_secondstoframes(2)) sprite_index = spr_gijinka_crepuscule_crysepically
+
 if cryaboutit_time > func_secondstoframes(2.5)
 {
 	x++

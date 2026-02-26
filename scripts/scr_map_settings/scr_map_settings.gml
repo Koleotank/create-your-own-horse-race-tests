@@ -507,7 +507,7 @@ function scr_map_settings(argument0)
 		break
 		case rm_gijinka38:
 		{
-			func_switchmusic(sfx_mu_neverballtrack3)
+			func_switchmusic(sfx_mu_rayforcevision)
 			global.SHOW_TIMER = false
 			global.OUT_OF_BOUNDS_MEASURE = "wrap"
 			global.ANTI_COLLISION_MEASURE = "expensive"

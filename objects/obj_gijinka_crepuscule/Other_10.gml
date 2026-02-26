@@ -63,18 +63,17 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 			
 			case "Aetherial Mark":
 			{
-				if (round(random_range(1,4)==1))
+				if wardoff_counter <= 0
 				{
 					audio_play_sound(sfx_rpgmakerattack2,10,false)
 					var _deathsound = audio_play_sound(sfx_crepusculecrys,10,false)
 		
-					var _deatheffect = instance_create_depth(_collidingobject.x,_collidingobject.y,0,obj_crepusculecry)
+					var _deatheffect = instance_create_depth(x,y,0,obj_crepusculecry)
 		
 					audio_sound_pitch(_deathsound,1)
 					
-					sprite_index = spr_gijinka_crepuscule_ow
-					
 					_collidingobject.winsound = sfx_rpgmakerblind
+					_collidingobject.secondwinsound = sfx_rpgmakerblind
 					_collidingobject.winsprite = spr_gijinka_aetherialmark_success
 		
 					instance_destroy()
@@ -83,9 +82,11 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 				{
 					audio_play_sound(sfx_rpgmakerattack2,10,false)
 					var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
-					audio_sound_pitch(_deathsound,random_range(1,1.75))
+					
+					sprite_index = spr_gijinka_crepuscule_ow
 					
 					stun_time = 30
+					wardoff_counter--
 				}
 			}
 			break;

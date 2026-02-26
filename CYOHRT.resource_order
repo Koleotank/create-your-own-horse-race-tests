@@ -449,6 +449,7 @@
     {"name":"sfx_mu_racepinball2","order":19,"path":"sounds/sfx_mu_racepinball2/sfx_mu_racepinball2.yy",},
     {"name":"sfx_mu_racesanctuary","order":20,"path":"sounds/sfx_mu_racesanctuary/sfx_mu_racesanctuary.yy",},
     {"name":"sfx_mu_racewind","order":21,"path":"sounds/sfx_mu_racewind/sfx_mu_racewind.yy",},
+    {"name":"sfx_mu_rayforcevision","order":31,"path":"sounds/sfx_mu_rayforcevision/sfx_mu_rayforcevision.yy",},
     {"name":"sfx_mu_rs1coupdegrace","order":4,"path":"sounds/sfx_mu_rs1coupdegrace/sfx_mu_rs1coupdegrace.yy",},
     {"name":"sfx_mu_rs3fournobledevils2","order":18,"path":"sounds/sfx_mu_rs3fournobledevils2/sfx_mu_rs3fournobledevils2.yy",},
     {"name":"sfx_mu_rs3thebattle","order":3,"path":"sounds/sfx_mu_rs3thebattle/sfx_mu_rs3thebattle.yy",},

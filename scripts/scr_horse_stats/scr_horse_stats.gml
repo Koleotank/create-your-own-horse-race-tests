@@ -1991,7 +1991,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			losesprite = spr_gijinka_aetherialmark_lose
 			portraitsprite = spr_gijinkaportrait_aetherialmark
 			portraitbgsprite = gijinka_winscreen
-			winjingle = sfx_omegamark_win
+			winjingle = sfx_aetherialmark_win
 			winsound = sfx_rpgmakerbuzzer
 			jinglelength = func_secondstoframes(16)
 		}
