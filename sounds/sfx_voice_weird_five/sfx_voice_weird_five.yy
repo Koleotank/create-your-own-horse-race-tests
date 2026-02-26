@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.044898,
+  "duration":0.9671655,
   "exportDir":"",
   "name":"sfx_voice_weird_five",
   "parent":{

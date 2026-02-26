@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.783673,
+  "duration":0.7191837,
   "exportDir":"",
   "name":"sfx_voice_weird_go",
   "parent":{

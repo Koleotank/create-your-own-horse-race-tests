@@ -1987,13 +1987,13 @@ function scr_horse_stats(_givenidentity,_room=room)
 			angleincrementdirectionmax = 3
 			anglechangechance = 1
 			
-			winsprite = spr_gijinka_omegamark_win
-			losesprite = spr_gijinka_omegamark_lose
-			portraitsprite = spr_gijinkaportrait_omegamark
+			winsprite = spr_gijinka_aetherialmark_fail
+			losesprite = spr_gijinka_aetherialmark_lose
+			portraitsprite = spr_gijinkaportrait_aetherialmark
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_omegamark_win
-			winsound = sfx_rpgmakerchime2
-			jinglelength = func_secondstoframes(9.6)
+			winsound = sfx_rpgmakerbuzzer
+			jinglelength = func_secondstoframes(16)
 		}
 		break
 	}

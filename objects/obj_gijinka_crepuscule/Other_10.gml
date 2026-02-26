@@ -1,6 +1,29 @@
 // Inherit the parent event
 event_inherited();
 
+if stun_time>0
+{
+	
+	var _jitteringX = random_range(-3.5,3.5)*(stun_time*0.03)
+	var _jitteringY = random_range(-3.5,3.5)*(stun_time*0.03)
+	
+	x=stun_x
+	y=stun_y
+	
+	if !func_placemeetingalt(x+_jitteringX,y,obj_mapparent) && !func_placemeetingalt(x+_jitteringX,y,obj_horseparent)
+		x+=_jitteringX;
+	if !func_placemeetingalt(x,y+_jitteringY,obj_mapparent) && !func_placemeetingalt(x,y+_jitteringY,obj_horseparent)
+		y+=_jitteringY;
+		
+	stun_time--
+}
+else
+{
+	sprite_index=spr_gijinka_crepuscule
+	stun_x=x
+	stun_y=y
+}
+
 if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
 	if cooldown == 0
@@ -35,6 +58,35 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 		
 				instance_destroy(_collidingobject)
 				cooldown = 30
+			}
+			break;
+			
+			case "Aetherial Mark":
+			{
+				if (round(random_range(1,4)==1))
+				{
+					audio_play_sound(sfx_rpgmakerattack2,10,false)
+					var _deathsound = audio_play_sound(sfx_crepusculecrys,10,false)
+		
+					var _deatheffect = instance_create_depth(_collidingobject.x,_collidingobject.y,0,obj_crepusculecry)
+		
+					audio_sound_pitch(_deathsound,1)
+					
+					sprite_index = spr_gijinka_crepuscule_ow
+					
+					_collidingobject.winsound = sfx_rpgmakerblind
+					_collidingobject.winsprite = spr_gijinka_aetherialmark_success
+		
+					instance_destroy()
+				}
+				else
+				{
+					audio_play_sound(sfx_rpgmakerattack2,10,false)
+					var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
+					audio_sound_pitch(_deathsound,random_range(1,1.75))
+					
+					stun_time = 30
+				}
 			}
 			break;
 		}

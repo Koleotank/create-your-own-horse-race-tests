@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_voice_spooky_four",
+  "%Name":"sfx_rpgmakerbuzzer",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.64201814,
+  "duration":0.30621314,
   "exportDir":"",
-  "name":"sfx_voice_spooky_four",
+  "name":"sfx_rpgmakerbuzzer",
   "parent":{
-    "name":"spooky",
-    "path":"folders/Sounds/voices/spooky.yy",
+    "name":"sounds",
+    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_voice_spooky_four.mp3",
-  "volume":0.5,
+  "soundFile":"sfx_rpgmakerbuzzer.wav",
+  "volume":0.51,
 }

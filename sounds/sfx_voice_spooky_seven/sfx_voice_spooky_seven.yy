@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.816,
+  "duration":0.7710204,
   "exportDir":"",
   "name":"sfx_voice_spooky_seven",
   "parent":{

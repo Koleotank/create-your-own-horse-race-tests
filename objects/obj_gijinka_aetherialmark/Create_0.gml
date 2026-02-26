@@ -2,11 +2,5 @@
 // You can write your code in this editor
 event_inherited()
 
-cooldown = 30
-
-stun_time = 0
-stun_x = 0
-stun_y = 0
-
-horseidentity = "Crepuscule"
+horseidentity = "Aetherial Mark"
 scr_horse_stats(horseidentity)

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.552,
+  "duration":0.5050113,
   "exportDir":"",
   "name":"sfx_voice_spooky_eight",
   "parent":{
