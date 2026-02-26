@@ -1962,5 +1962,39 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(10.91)
 		}
 		break
+		case "Aetherial Mark": 
+		{
+			multicolor = true
+			
+			eyeframeamount = 2
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(255,0,0)
+			bodycolor_b = make_color_rgb(0,54,99)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.8
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_omegamark_win
+			losesprite = spr_gijinka_omegamark_lose
+			portraitsprite = spr_gijinkaportrait_omegamark
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_omegamark_win
+			winsound = sfx_rpgmakerchime2
+			jinglelength = func_secondstoframes(9.6)
+		}
+		break
 	}
 }
