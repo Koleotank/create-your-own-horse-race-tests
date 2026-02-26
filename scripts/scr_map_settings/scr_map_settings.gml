@@ -510,6 +510,7 @@ function scr_map_settings(argument0)
 			func_switchmusic(sfx_mu_neverballtrack3)
 			global.SHOW_TIMER = false
 			global.OUT_OF_BOUNDS_MEASURE = "wrap"
+			global.ANTI_COLLISION_MEASURE = "expensive"
 			//global.COUNTDOWN_SKIPTO = 419
 			//global.REMAINING_WIN_SLOTS = 75
 		}
