@@ -60,7 +60,21 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 				cooldown = 30
 			}
 			break;
-			
+			case "Literally Winter P1nes":
+			{
+				var _deathsound = audio_play_sound(sfx_winterp1nes_DIE,10,false)
+		
+				var _deatheffect = instance_create_depth(_collidingobject.x,_collidingobject.y,0,obj_shakinghorsedeatheffect)
+		
+				_deatheffect.skullcolor = c_white
+				_deatheffect.sprite_index = spr_gijinka_winterp1nes_DIE
+		
+				audio_sound_pitch(_deathsound,1)
+		
+				instance_destroy(_collidingobject)
+				cooldown = 30
+			}
+			break;
 			case "Aetherial Mark":
 			{
 				if wardoff_counter <= 0
