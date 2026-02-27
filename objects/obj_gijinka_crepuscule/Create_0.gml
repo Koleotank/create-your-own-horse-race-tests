@@ -4,7 +4,7 @@ event_inherited()
 
 cooldown = 30
 
-wardoff_counter = random_range(4,7)
+wardoff_counter = floor(random_range(4,7))
 
 stun_time = 0
 stun_x = 0

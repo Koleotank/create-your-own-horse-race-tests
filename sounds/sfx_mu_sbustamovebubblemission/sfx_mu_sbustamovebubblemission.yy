@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_mu_sbustamovebubblemission",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":182.00066,
+  "exportDir":"",
+  "name":"sfx_mu_sbustamovebubblemission",
+  "parent":{
+    "name":"gijinka",
+    "path":"folders/Sounds/music/gijinka.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_mu_sbustamovebubblemission.mp3",
+  "volume":0.54,
+}

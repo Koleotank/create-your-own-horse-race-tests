@@ -515,5 +515,42 @@ function scr_map_settings(argument0)
 			//global.REMAINING_WIN_SLOTS = 75
 		}
 		break
+		case rm_gijinka39:
+		{
+			func_switchmusic(sfx_mu_sbustamovemetal)
+			global.SHOW_TIMER = false
+			global.OUT_OF_BOUNDS_MEASURE = "wrap"
+			global.ANTI_COLLISION_MEASURE = "expensive"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka40:
+		{
+			func_switchmusic(sfx_mu_sbustamovebubblemission)
+			global.SHOW_TIMER = false
+			global.ANTI_COLLISION_MEASURE = "expensive"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka41:
+		{
+			func_switchmusic(sfx_mu_mamorukunwillforce)
+			global.SHOW_TIMER = false
+			global.ANTI_COLLISION_MEASURE = "expensive"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
+		case rm_gijinka42:
+		{
+			func_switchmusic(sfx_mu_neverballtrack1)
+			global.SHOW_TIMER = false
+			global.ANTI_COLLISION_MEASURE = "expensive"
+			//global.COUNTDOWN_SKIPTO = 419
+			//global.REMAINING_WIN_SLOTS = 75
+		}
+		break
 	}
 }
