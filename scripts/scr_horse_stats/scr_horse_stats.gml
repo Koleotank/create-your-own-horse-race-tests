@@ -1996,5 +1996,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(16)
 		}
 		break
+		case "Literally Winter P1nes": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(65,140,155)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_winterp1nes_winlose
+			losesprite = spr_gijinka_winterp1nes_winlose
+			portraitsprite = spr_gijinkaportrait_winterp1nes
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winterp1nes_win
+			winsound = sfx_bfdigasp
+			jinglelength = func_secondstoframes(5.33)
+		}
+		break
 	}
 }
