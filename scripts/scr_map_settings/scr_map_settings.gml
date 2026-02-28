@@ -554,7 +554,7 @@ function scr_map_settings(argument0)
 		break
 		case rm_gijinka43:
 		{
-			func_switchmusic(sfx_mu_sbustamovemetal)
+			func_switchmusic(sfx_mu_famicommodore)
 			global.SHOW_TIMER = false
 			global.OUT_OF_BOUNDS_MEASURE = "wrap"
 			global.ANTI_COLLISION_MEASURE = "expensive"
