@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_map_gijinka43",
-    "path":"sprites/spr_map_gijinka43/spr_map_gijinka43.yy",
+    "name":"spr_map_gijinka44",
+    "path":"sprites/spr_map_gijinka44/spr_map_gijinka44.yy",
   },
   "spriteMaskId":null,
   "visible":true,

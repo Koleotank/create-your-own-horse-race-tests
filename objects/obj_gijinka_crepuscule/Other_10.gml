@@ -75,7 +75,7 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 				cooldown = 30
 			}
 			break;
-			case "Aetherial Mark":
+			case "Giant Steps":
 			{
 				if _collidingobject.total_hp <= 0
 				{
@@ -104,7 +104,36 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 				}
 			}
 			break;
-			case "Giant Steps":
+			case "All That Glitters":
+			{
+				if wardoff_counter <= 0
+				{
+					audio_play_sound(sfx_rpgmakerattack2,10,false)
+					var _deathsound = audio_play_sound(sfx_crepusculecrys,10,false)
+		
+					var _deatheffect = instance_create_depth(x,y,0,obj_crepusculecry)
+		
+					audio_sound_pitch(_deathsound,1)
+					
+					_collidingobject.winsound = sfx_rpgmakerblind
+					_collidingobject.secondwinsound = sfx_rpgmakerblind
+					_collidingobject.winsprite = spr_gijinka_aetherialmark_success
+		
+					instance_destroy()
+				}
+				else
+				{
+					audio_play_sound(sfx_rpgmakerattack2,10,false)
+					var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
+					
+					sprite_index = spr_gijinka_crepuscule_ow
+					
+					stun_time = 30
+					wardoff_counter-=2
+				}
+			}
+			break;
+			case "Aetherial Mark":
 			{
 				if wardoff_counter <= 0
 				{
