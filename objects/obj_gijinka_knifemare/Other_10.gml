@@ -9,22 +9,21 @@ if to_catch_number <= 0 && global.GAME_STATE = "normal" //array_length(to_catch)
 	//_wineffect.sprite_index = sprite_index
 	global.GAME_STATE = "raceend"
 	
-	if array_length(global.WINNERS_LIST) <= 0
-		global.WINJINGLE = winjingle
-	array_insert(global.WINNERS_LIST,array_length(global.WINNERS_LIST),horseidentity)
-	var _winninghorse = instance_create_depth(x,y,0,obj_winninghorse)
-	_winninghorse.sprite_index = winsprite
-	_winninghorse.winplacement = array_length(global.WINNERS_LIST)
-	_winninghorse.hsp = clamp(hsp,_winninghorse.maxhsp*-1.25,_winninghorse.maxhsp*1.25)
-	_winninghorse.vsp = clamp(vsp,_winninghorse.maxvsp*-1.25,_winninghorse.maxvsp*1.25)
-	var _targetgoal = herself
+		if array_length(global.WINNERS_LIST) <= 0
+			global.WINJINGLE = winjingle
+		array_insert(global.WINNERS_LIST,array_length(global.WINNERS_LIST),horseidentity)
+		var _winninghorse = instance_create_depth(x,y,0,obj_winninghorse)
+		_winninghorse.sprite_index = winsprite
+		_winninghorse.winplacement = array_length(global.WINNERS_LIST)
+		_winninghorse.hsp = clamp(hsp,_winninghorse.maxhsp*-1.25,_winninghorse.maxhsp*1.25)
+		_winninghorse.vsp = clamp(vsp,_winninghorse.maxvsp*-1.25,_winninghorse.maxvsp*1.25)
+		var _targetgoal = instance_place(x,y,obj_goal)
 		if _targetgoal != noone
-	if _targetgoal != noone
-	{
-		_winninghorse.targetgoal = _targetgoal
-		global.CAM_TARGET_GOAL = _targetgoal
-	}
-	instance_destroy()
+		{
+			_winninghorse.targetgoal = _targetgoal
+			global.CAM_TARGET_GOAL = _targetgoal
+		}
+		instance_destroy()
 }
 
 var _chasertraplocations = instance_number(obj_chasertraplocation)
