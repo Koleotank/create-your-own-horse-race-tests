@@ -114,10 +114,6 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 					var _deatheffect = instance_create_depth(x,y,0,obj_crepusculecry)
 		
 					audio_sound_pitch(_deathsound,1)
-					
-					_collidingobject.winsound = sfx_rpgmakerblind
-					_collidingobject.secondwinsound = sfx_rpgmakerblind
-					_collidingobject.winsprite = spr_gijinka_aetherialmark_success
 		
 					instance_destroy()
 				}
