@@ -83,6 +83,7 @@
     {"name":"obj_collectible_teeth","order":8,"path":"objects/obj_collectible_teeth/obj_collectible_teeth.yy",},
     {"name":"obj_coward","order":8,"path":"objects/obj_coward/obj_coward.yy",},
     {"name":"obj_crepusculecry","order":1,"path":"objects/obj_crepusculecry/obj_crepusculecry.yy",},
+    {"name":"obj_crepusculespawner","order":2,"path":"objects/obj_crepusculespawner/obj_crepusculespawner.yy",},
     {"name":"obj_crosshair","order":31,"path":"objects/obj_crosshair/obj_crosshair.yy",},
     {"name":"obj_darkness","order":4,"path":"objects/obj_darkness/obj_darkness.yy",},
     {"name":"obj_dasheffect_afterimage","order":2,"path":"objects/obj_dasheffect_afterimage/obj_dasheffect_afterimage.yy",},

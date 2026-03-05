@@ -110,6 +110,7 @@
     {"id":{"name":"obj_coward","path":"objects/obj_coward/obj_coward.yy",},},
     {"id":{"name":"obj_crepusculecry","path":"objects/obj_crepusculecry/obj_crepusculecry.yy",},},
     {"id":{"name":"obj_crepusculekill","path":"objects/obj_crepusculekill/obj_crepusculekill.yy",},},
+    {"id":{"name":"obj_crepusculespawner","path":"objects/obj_crepusculespawner/obj_crepusculespawner.yy",},},
     {"id":{"name":"obj_crosshair","path":"objects/obj_crosshair/obj_crosshair.yy",},},
     {"id":{"name":"obj_darkness","path":"objects/obj_darkness/obj_darkness.yy",},},
     {"id":{"name":"obj_dasheffect_afterimage","path":"objects/obj_dasheffect_afterimage/obj_dasheffect_afterimage.yy",},},
