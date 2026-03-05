@@ -8,7 +8,7 @@ if spawn_timer == time_to_spawn
 }
 else if spawn_timer > time_to_spawn
 {
-	image_alpha+=0.2	
+	image_alpha+=0.05	
 }
 
 
