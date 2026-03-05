@@ -77,6 +77,35 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 			break;
 			case "Aetherial Mark":
 			{
+				if _collidingobject.total_hp <= 0
+				{
+					var _deathsound = audio_play_sound(sfx_CHOMP,10,false)
+		
+					var _deatheffect = instance_create_depth(_collidingobject.x,_collidingobject.y,0,obj_shakinghorsedeatheffect)
+		
+					_deatheffect.skullcolor = c_red
+					_deatheffect.sprite_index = spr_gijinka_gst_lose
+		
+					audio_sound_pitch(_deathsound,0.8)
+		
+					instance_destroy(_collidingobject)
+					cooldown = 30
+				}
+				else
+				{
+					audio_play_sound(sfx_punched,10,false)
+					var _deathsound = audio_play_sound(sfx_oww,10,false)
+					
+					_collidingobject.sprite_index = spr_gijinka_gst_OUCH
+					
+					_collidingobject.stun_time = 30
+					_collidingobject.total_hp--
+					cooldown = 30
+				}
+			}
+			break;
+			case "Giant Steps":
+			{
 				if wardoff_counter <= 0
 				{
 					audio_play_sound(sfx_rpgmakerattack2,10,false)

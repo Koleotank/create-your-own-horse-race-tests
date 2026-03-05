@@ -2027,5 +2027,99 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(5.33)
 		}
 		break
+		case "Chalcedony Chariot": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(197,120,46)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_chalcedony_win
+			losesprite = spr_gijinka_chalcedony_lose
+			portraitsprite = spr_horseportrait_chalcedony
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_chalcedony_win
+			winsound = sfx_horse1
+			jinglelength = func_secondstoframes(7.38)
+		}
+		break
+		case "Chestnut Jess": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(234,172,65)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_jess_win
+			losesprite = spr_gijinka_jess_lose
+			portraitsprite = spr_horseportrait_jess
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_jess_win
+			winsound = sfx_jess_whatkindahorse
+			jinglelength = func_secondstoframes(7.15)
+		}
+		break
+		case "Giant Steps": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(255,0,0)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.4*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_gst_win
+			losesprite = spr_gijinka_gst_lose
+			portraitsprite = spr_gijinkaportrait_gst
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_gst_win
+			winsound = sfx_thelick
+			jinglelength = func_secondstoframes(7.80)
+		}
+		break
+		
 	}
 }
