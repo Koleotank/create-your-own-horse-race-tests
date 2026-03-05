@@ -108,7 +108,7 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent) {
 			{
 				if wardoff_counter <= 0
 				{
-					audio_play_sound(sfx_rpgmakerattack2,10,false)
+					audio_play_sound(sfx_gold,10,false)
 					var _deathsound = audio_play_sound(sfx_crepusculecrys,10,false)
 		
 					var _deatheffect = instance_create_depth(x,y,0,obj_crepusculecry)
