@@ -1498,6 +1498,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
+			winname = "Aurelia Bullion"
+			
 			bodycolor = make_color_rgb(248,232,0)
 			
 			knockbackresistance = 0
