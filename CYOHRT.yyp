@@ -212,6 +212,8 @@
     {"id":{"name":"obj_hrtworldtext_yellow","path":"objects/obj_hrtworldtext_yellow/obj_hrtworldtext_yellow.yy",},},
     {"id":{"name":"obj_hrtworldtext","path":"objects/obj_hrtworldtext/obj_hrtworldtext.yy",},},
     {"id":{"name":"obj_improvisedwall","path":"objects/obj_improvisedwall/obj_improvisedwall.yy",},},
+    {"id":{"name":"obj_knifemaremanager","path":"objects/obj_knifemaremanager/obj_knifemaremanager.yy",},},
+    {"id":{"name":"obj_managerparent","path":"objects/obj_managerparent/obj_managerparent.yy",},},
     {"id":{"name":"obj_manhole","path":"objects/obj_manhole/obj_manhole.yy",},},
     {"id":{"name":"obj_manholelid","path":"objects/obj_manholelid/obj_manholelid.yy",},},
     {"id":{"name":"obj_map_gijinka1","path":"objects/obj_map_gijinka1/obj_map_gijinka1.yy",},},

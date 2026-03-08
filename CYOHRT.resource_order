@@ -180,6 +180,8 @@
     {"name":"obj_hrtworldtext_yellow","order":13,"path":"objects/obj_hrtworldtext_yellow/obj_hrtworldtext_yellow.yy",},
     {"name":"obj_hrtworldtext","order":12,"path":"objects/obj_hrtworldtext/obj_hrtworldtext.yy",},
     {"name":"obj_improvisedwall","order":32,"path":"objects/obj_improvisedwall/obj_improvisedwall.yy",},
+    {"name":"obj_knifemaremanager","order":4,"path":"objects/obj_knifemaremanager/obj_knifemaremanager.yy",},
+    {"name":"obj_managerparent","order":3,"path":"objects/obj_managerparent/obj_managerparent.yy",},
     {"name":"obj_manhole","order":29,"path":"objects/obj_manhole/obj_manhole.yy",},
     {"name":"obj_manholelid","order":30,"path":"objects/obj_manholelid/obj_manholelid.yy",},
     {"name":"obj_map_gijinka10","order":9,"path":"objects/obj_map_gijinka10/obj_map_gijinka10.yy",},
