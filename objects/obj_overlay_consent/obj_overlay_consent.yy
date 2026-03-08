@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_overlay_dontstoprunning",
-    "path":"sprites/spr_overlay_dontstoprunning/spr_overlay_dontstoprunning.yy",
+    "name":"spr_overlay_consent",
+    "path":"sprites/spr_overlay_consent/spr_overlay_consent.yy",
   },
   "spriteMaskId":null,
   "visible":true,
