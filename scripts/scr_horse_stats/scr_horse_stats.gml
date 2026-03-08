@@ -2129,10 +2129,10 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
-			bodycolor = make_color_rgb(255,0,0)
+			bodycolor = make_color_rgb(255,0,160)
 			
 			knockbackresistance = -0.5
-			defaultmovespeed = 1.4*1.5
+			defaultmovespeed = 5*1.5
 			
 			overtimeaccelerationamount = 0;
 			accelerationamount = 0;
@@ -2144,13 +2144,75 @@ function scr_horse_stats(_givenidentity,_room=room)
 			angleincrementdirectionmax = 6
 			anglechangechance = 1
 			
-			winsprite = spr_gijinka_gst_win
-			losesprite = spr_gijinka_gst_lose
-			portraitsprite = spr_gijinkaportrait_gst
+			winsprite = spr_gijinka_sunday_winlose
+			losesprite = spr_gijinka_sunday_winlose
+			portraitsprite = spr_gijinkaportrait_sunday
 			portraitbgsprite = gijinka_winscreen
-			winjingle = sfx_gst_win
-			winsound = sfx_thelick
-			jinglelength = func_secondstoframes(7.80)
+			winjingle = sfx_sunday_win
+			winsound = sfx_huh
+			jinglelength = func_secondstoframes(8.4)
+		}
+		break
+		case "Muma Rope": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,227,227)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 1.7*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_midwest_win
+			losesprite = spr_gijinka_midwest_lose
+			portraitsprite = spr_horseportrait_midweststateoutline
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_midwest_win
+			winsound = sfx_mumaropesounds
+			jinglelength = func_secondstoframes(6.28)
+		}
+		break
+		case "Right Wing Grift": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,179,179)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_biomorph_win
+			losesprite = spr_gijinka_biomorph_lose
+			portraitsprite = spr_horseportrait_midweststateoutline
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_biomorph_win
+			winsound = sfx_biomorphWHAT
+			jinglelength = func_secondstoframes(13.94)
 		}
 		break
 		
