@@ -13,9 +13,11 @@ if wincondition && global.GAME_STATE = "normal" //array_length(to_catch)<=0 && g
 	
 		for(var _i = 0; _i<instance_number(obj_gijinka_knifemare); _i++)
 		{
+			show_debug_message(instance_number(obj_gijinka_knifemare));
 			var _winners = instance_find(obj_gijinka_knifemare,_i)
 		
 			if (_i == 0) array_insert(global.WINNERS_LIST,array_length(global.WINNERS_LIST),_winners.horseidentity)
+			
 			var _winninghorse = instance_create_depth(_winners.x,_winners.y,0,obj_winninghorse)
 			_winninghorse.sprite_index = _winners.winsprite
 			_winninghorse.winplacement = array_length(global.WINNERS_LIST)
@@ -27,6 +29,7 @@ if wincondition && global.GAME_STATE = "normal" //array_length(to_catch)<=0 && g
 				_winninghorse.targetgoal = _targetgoal
 				global.CAM_TARGET_GOAL = _targetgoal
 			}
-			instance_destroy(_winners)
 		}
+		
+		with(obj_gijinka_knifemare) instance_destroy(self)
 }

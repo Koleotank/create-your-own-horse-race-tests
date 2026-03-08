@@ -1,3 +1,6 @@
+depth = -20
+
+
 count = 0
 wincondition = false
 winsound = sfx_2kkilaugh
