@@ -1,3 +1,5 @@
+if (count <= 0) wincondition = true
+
 if wincondition && global.GAME_STATE = "normal" //array_length(to_catch)<=0 && global.GAME_STATE = "normal"
 {
 	audio_play_sound(winsound,20,false)
