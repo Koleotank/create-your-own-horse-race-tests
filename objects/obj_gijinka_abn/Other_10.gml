@@ -10,12 +10,11 @@ if hasdonecollisionthisframe && speedupcooldown <= 0
 		y = glitchy
 		targetangle = glitchangle
 		sprite_index = spr_gijinka_abn_charge
-		eyesprite = spr_null
 		image_index = 0
 		glitchspriteduration = 10
 	}
 	if defaultmovespeed <= 10
-		defaultmovespeed += 0.5
+		defaultmovespeed += 0.9
 	else
 		defaultmovespeed = 0
 	speedupcooldown = 6
@@ -29,13 +28,48 @@ if glitchspriteduration > 0
 }
 else
 {
-	sprite_index = spr_mutant_abominationnation
-	eyesprite = spr_mutant_abominationnation_eyes
+	sprite_index = spr_gijinka_abn
 }
 
 if speedupcooldown > 0
+{
 	speedupcooldown--
+}
 
 
 
+if place_meeting(x+hsp,y+vsp,obj_horseparent)
+{
+	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
+	switch(_collidingobject.horseidentity) 
+	{
+		default:
+		{
+			audio_play_sound(sfx_clickteamcrush,10,false)
+			instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
+			instance_destroy(_collidingobject)
+		}
+		break
+		case "Crepuscule":
+		{
+			if _collidingobject.wardoff_counter <= 0
+				{
+					audio_play_sound(sfx_clickteamcrush,10,false)
+					instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
+					instance_destroy(_collidingobject)
+				}
+				else
+				{
+					audio_play_sound(sfx_clickteamcrush,10,false)
+					var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
+					
+					_collidingobject.sprite_index = spr_gijinka_crepuscule_ow
+					
+					_collidingobject.stun_time = 30
+					_collidingobject.wardoff_counter--
+				}
+		}
+		break
+	}
+}
 
