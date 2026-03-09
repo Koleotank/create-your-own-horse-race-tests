@@ -2215,6 +2215,70 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(13.94)
 		}
 		break
+		case "Right Green Grift": 
+		{
+			winname = "Right Wing Grift";
+			
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,255,0)
+			
+			knockbackresistance = -0.5
+			defaultmovespeed = 2.2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_greenhairbiomorph_win
+			losesprite = spr_gijinka_greenhairbiomorph_lose
+			portraitsprite = spr_horseportrait_midweststateoutline
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_biomorph_win
+			winsound = sfx_biomorphWHAT
+			jinglelength = func_secondstoframes(13.94)
+		}
+		break
+		case "Horse Race Defense Force": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,255,0)
+			
+			knockbackresistance = 10
+			defaultmovespeed = 3.2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_abn_win
+			losesprite = spr_gijinka_abn_lose
+			portraitsprite = spr_horseportrait_abominationnation
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_abn_win
+			winsound = sfx_abnnoise
+			jinglelength = func_secondstoframes(4.22)
+		}
+		break
 		
 	}
 }
