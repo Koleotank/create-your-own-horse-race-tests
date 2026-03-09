@@ -7,7 +7,7 @@ if place_meeting(x+hsp,y+vsp,obj_horseparent)
 	if(_collidingobject.horseidentity == "Muma Rope")
 	{ 
 		audio_play_sound(sfx_clickteamcrush,10,false)
-		instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_peteggy)
+		instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
 		instance_destroy(_collidingobject)
 		instance_destroy()
 	}

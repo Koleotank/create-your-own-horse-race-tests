@@ -10,9 +10,10 @@ glitchx = x
 glitchy = y
 glitchangle = targetangle
 glitchspriteduration = 0
+manager = noone
 
 var _managerr = instance_find(obj_abnmanager,0);
-if(_managerr!=noone) chasermanager = _managerr;
+if(_managerr!=noone) manager = _managerr;
 
 
 

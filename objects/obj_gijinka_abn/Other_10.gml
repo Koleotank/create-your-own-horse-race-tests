@@ -14,9 +14,9 @@ if hasdonecollisionthisframe && speedupcooldown <= 0
 		glitchspriteduration = 10
 	}
 	if defaultmovespeed <= 10
-		defaultmovespeed += 0.9
+		defaultmovespeed += 0.5
 	else
-		defaultmovespeed = 0
+		defaultmovespeed = 1.2*1.5
 	speedupcooldown = 6
 	glitchx = x
 	glitchy = y
@@ -71,6 +71,8 @@ if manager != noone
 						_collidingobject.wardoff_counter--
 					}
 			}
+			break
+			case "Horse Race Defense Force":
 			break
 		}
 	}

@@ -2258,7 +2258,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			bodycolor = make_color_rgb(0,255,0)
 			
 			knockbackresistance = 10
-			defaultmovespeed = 3.2*1.5
+			defaultmovespeed = 1.2*1.5
 			
 			overtimeaccelerationamount = 0;
 			accelerationamount = 0;
