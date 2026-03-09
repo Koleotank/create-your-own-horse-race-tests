@@ -314,6 +314,7 @@
     {"id":{"name":"obj_raytest","path":"objects/obj_raytest/obj_raytest.yy",},},
     {"id":{"name":"obj_shakinghorsedeatheffect","path":"objects/obj_shakinghorsedeatheffect/obj_shakinghorsedeatheffect.yy",},},
     {"id":{"name":"obj_shitassannihilator_model1","path":"objects/obj_shitassannihilator_model1/obj_shitassannihilator_model1.yy",},},
+    {"id":{"name":"obj_specialwinterkillinggamemanager","path":"objects/obj_specialwinterkillinggamemanager/obj_specialwinterkillinggamemanager.yy",},},
     {"id":{"name":"obj_spriteloaderinstance","path":"objects/obj_spriteloaderinstance/obj_spriteloaderinstance.yy",},},
     {"id":{"name":"obj_spriteloadermanager","path":"objects/obj_spriteloadermanager/obj_spriteloadermanager.yy",},},
     {"id":{"name":"obj_stillhungry","path":"objects/obj_stillhungry/obj_stillhungry.yy",},},
