@@ -2279,6 +2279,37 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(4.22)
 		}
 		break
+		case "Xanagogue District": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(223,203,0)
+			
+			knockbackresistance = 10
+			defaultmovespeed = 2.5*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_xanagogue_win
+			losesprite = spr_gijinka_xanagogue_lose
+			portraitsprite = spr_horseportrait_xanagogue
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_xanagogue_win
+			winsound = sfx_SIXSEVEN
+			jinglelength = func_secondstoframes(6.02)
+		}
+		break
 		
 	}
 }

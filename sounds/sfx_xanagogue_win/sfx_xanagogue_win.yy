@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_xanagogue_win",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.0226755,
+  "exportDir":"",
+  "name":"sfx_xanagogue_win",
+  "parent":{
+    "name":"gijinkas",
+    "path":"folders/Sounds/win jingles/gijinkas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_xanagogue_win.wav",
+  "volume":1.0,
+}
