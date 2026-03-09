@@ -91,6 +91,7 @@
   "resources":[
     {"id":{"name":"fnt_comicsans","path":"fonts/fnt_comicsans/fnt_comicsans.yy",},},
     {"id":{"name":"fnt_portrait","path":"fonts/fnt_portrait/fnt_portrait.yy",},},
+    {"id":{"name":"obj_abnmanager","path":"objects/obj_abnmanager/obj_abnmanager.yy",},},
     {"id":{"name":"obj_animatedeffect","path":"objects/obj_animatedeffect/obj_animatedeffect.yy",},},
     {"id":{"name":"obj_announcer","path":"objects/obj_announcer/obj_announcer.yy",},},
     {"id":{"name":"obj_announcerfloateffect","path":"objects/obj_announcerfloateffect/obj_announcerfloateffect.yy",},},

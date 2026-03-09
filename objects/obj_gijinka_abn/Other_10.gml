@@ -38,38 +38,41 @@ if speedupcooldown > 0
 
 
 
-if place_meeting(x+hsp,y+vsp,obj_horseparent)
+if manager != noone
 {
-	var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
-	switch(_collidingobject.horseidentity) 
+	if place_meeting(x+hsp,y+vsp,obj_horseparent)
 	{
-		default:
+		var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
+		switch(_collidingobject.horseidentity) 
 		{
-			audio_play_sound(sfx_clickteamcrush,10,false)
-			instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
-			instance_destroy(_collidingobject)
-		}
-		break
-		case "Crepuscule":
-		{
-			if _collidingobject.wardoff_counter <= 0
-				{
-					audio_play_sound(sfx_clickteamcrush,10,false)
-					instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
-					instance_destroy(_collidingobject)
-				}
-				else
-				{
-					audio_play_sound(sfx_clickteamcrush,10,false)
-					var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
+			default:
+			{
+				audio_play_sound(sfx_clickteamcrush,10,false)
+				instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
+				instance_destroy(_collidingobject)
+			}
+			break
+			case "Crepuscule":
+			{
+				if _collidingobject.wardoff_counter <= 0
+					{
+						audio_play_sound(sfx_clickteamcrush,10,false)
+						instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_gijinka_abn)
+						instance_destroy(_collidingobject)
+					}
+					else
+					{
+						audio_play_sound(sfx_clickteamcrush,10,false)
+						var _deathsound = audio_play_sound(sfx_crepuscule_OW,10,false)
 					
-					_collidingobject.sprite_index = spr_gijinka_crepuscule_ow
+						_collidingobject.sprite_index = spr_gijinka_crepuscule_ow
 					
-					_collidingobject.stun_time = 30
-					_collidingobject.wardoff_counter--
-				}
+						_collidingobject.stun_time = 30
+						_collidingobject.wardoff_counter--
+					}
+			}
+			break
 		}
-		break
 	}
 }
 
