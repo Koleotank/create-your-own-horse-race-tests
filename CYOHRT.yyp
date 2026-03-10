@@ -1366,8 +1366,8 @@
     {"roomId":{"name":"rm_gijinka45","path":"rooms/rm_gijinka45/rm_gijinka45.yy",},},
     {"roomId":{"name":"rm_gijinka46","path":"rooms/rm_gijinka46/rm_gijinka46.yy",},},
     {"roomId":{"name":"rm_gijinka47","path":"rooms/rm_gijinka47/rm_gijinka47.yy",},},
-    {"roomId":{"name":"rm_gijinka48","path":"rooms/rm_gijinka48/rm_gijinka48.yy",},},
     {"roomId":{"name":"rm_gijinka49","path":"rooms/rm_gijinka49/rm_gijinka49.yy",},},
+    {"roomId":{"name":"rm_gijinka48","path":"rooms/rm_gijinka48/rm_gijinka48.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
