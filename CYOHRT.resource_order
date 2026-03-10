@@ -67,6 +67,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_portrait","order":1,"path":"fonts/fnt_portrait/fnt_portrait.yy",},
     {"name":"obj_abnmanager","order":6,"path":"objects/obj_abnmanager/obj_abnmanager.yy",},
+    {"name":"obj_abnspawner","order":7,"path":"objects/obj_abnspawner/obj_abnspawner.yy",},
     {"name":"obj_animatedeffect","order":5,"path":"objects/obj_animatedeffect/obj_animatedeffect.yy",},
     {"name":"obj_announcer","order":18,"path":"objects/obj_announcer/obj_announcer.yy",},
     {"name":"obj_announcerfloateffect","order":19,"path":"objects/obj_announcerfloateffect/obj_announcerfloateffect.yy",},
