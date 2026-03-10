@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_gijinka49",
+  "%Name":"obj_map_gijinka52",
   "eventList":[],
   "managed":true,
-  "name":"obj_map_gijinka49",
+  "name":"obj_map_gijinka52",
   "overriddenProperties":[],
   "parent":{
     "name":"gijinka",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_map_gijinka49",
-    "path":"sprites/spr_map_gijinka49/spr_map_gijinka49.yy",
+    "name":"spr_map_gijinka52",
+    "path":"sprites/spr_map_gijinka52/spr_map_gijinka52.yy",
   },
   "spriteMaskId":null,
   "visible":true,
