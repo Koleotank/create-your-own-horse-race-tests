@@ -2036,7 +2036,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			eyedirectionsmoveclockwise = true
 			firsteyeframe = 2
 			
-			bodycolor = make_color_rgb(197,120,46)
+			bodycolor = make_color_rgb(109,121,45)
 			
 			knockbackresistance = -0.5
 			defaultmovespeed = 1.7*1.5
