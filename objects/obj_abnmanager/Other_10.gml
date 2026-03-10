@@ -41,6 +41,6 @@ else
 				}
 			}
 		
-			with(obj_gijinka_crepuscule) instance_destroy(self)
+			with(obj_gijinka_abn) instance_destroy(self)
 	}
 }
