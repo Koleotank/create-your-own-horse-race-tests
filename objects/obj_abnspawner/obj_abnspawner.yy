@@ -12,7 +12,10 @@
     "name":"misc",
     "path":"folders/Objects/horses/gijinkas/misc.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_crepusculespawner",
+    "path":"objects/obj_crepusculespawner/obj_crepusculespawner.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
