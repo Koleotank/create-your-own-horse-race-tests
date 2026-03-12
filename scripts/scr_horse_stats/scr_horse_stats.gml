@@ -2341,7 +2341,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_marksman_win
 			winsound = sfx_whaaaa
-			jinglelength = func_secondstoframes(4.22)
+			jinglelength = func_secondstoframes(6)
 		}
 		break
 		
