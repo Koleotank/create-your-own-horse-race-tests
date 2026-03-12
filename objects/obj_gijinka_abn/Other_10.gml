@@ -73,6 +73,7 @@ if manager != noone
 			}
 			break
 			case "Horse Race Defense Force":
+			case "Marks Man":
 			break
 		}
 	}

@@ -2,6 +2,7 @@ if !hasloaded
 {
 	totalcount=instance_number(obj_horseparent)
 	count=instance_number(obj_gijinka_abn)
+	exceptioncount=instance_number(obj_gijinka_marksman)
 	hasloaded = true
 }
 else

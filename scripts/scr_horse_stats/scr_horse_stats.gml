@@ -2310,6 +2310,40 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.02)
 		}
 		break
+		case "Marks Man": 
+		{
+			multicolor = true
+			
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(266,0,0)
+			bodycolor_b = make_color_rgb(0,255,0)
+			
+			knockbackresistance = 0.3
+			defaultmovespeed = 2.4*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_marksman_win
+			losesprite = spr_gijinka_marksman_lose
+			portraitsprite = spr_gijinkaportrait_marksman
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_marksman_win
+			winsound = sfx_whaaaa
+			jinglelength = func_secondstoframes(4.22)
+		}
+		break
 		
 	}
 }

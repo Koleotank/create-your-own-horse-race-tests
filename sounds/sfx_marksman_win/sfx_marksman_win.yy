@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_whaaaa",
+  "%Name":"sfx_marksman_win",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.2833107,
+  "duration":6.0000453,
   "exportDir":"",
-  "name":"sfx_whaaaa",
+  "name":"sfx_marksman_win",
   "parent":{
-    "name":"sounds",
-    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
+    "name":"gijinkas",
+    "path":"folders/Sounds/win jingles/gijinkas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_whaaaa.wav",
-  "volume":0.74,
+  "soundFile":"sfx_marksman_win.wav",
+  "volume":0.8,
 }
