@@ -2406,6 +2406,37 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.15)
 		}
 		break
+		case "Red Black World": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(255,0,0)
+			
+			knockbackresistance = 5
+			defaultmovespeed = 3
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_redmare_win
+			losesprite = spr_gijinka_knifemare_lose
+			portraitsprite = spr_null
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_nighttimeknifemare
+			winsound = sfx_2kkilaugh
+			jinglelength = func_secondstoframes(6.6)
+		}
+		break
 		
 	}
 }
