@@ -2353,8 +2353,8 @@ function scr_horse_stats(_givenidentity,_room=room)
 			
 			bodycolor = make_color_rgb(0,107,107)
 			
-			knockbackresistance = 10
-			defaultmovespeed = 2.5*1.5
+			knockbackresistance = 1
+			defaultmovespeed = 1.1*1.5
 			
 			overtimeaccelerationamount = 0;
 			accelerationamount = 0;
@@ -2366,13 +2366,44 @@ function scr_horse_stats(_givenidentity,_room=room)
 			angleincrementdirectionmax = 6
 			anglechangechance = 1
 			
-			winsprite = spr_gijinka_xanagogue_win
-			losesprite = spr_gijinka_xanagogue_lose
-			portraitsprite = spr_horseportrait_xanagogue
+			winsprite = spr_gijinka_bin_win
+			losesprite = spr_gijinka_bin_lose
+			portraitsprite = spr_horseportrait_garbagebin
 			portraitbgsprite = gijinka_winscreen
-			winjingle = sfx_xanagogue_win
-			winsound = sfx_SIXSEVEN
-			jinglelength = func_secondstoframes(6.02)
+			winjingle = sfx_winjingle_garbagebin
+			winsound = sfx_rpgmakerwater6
+			jinglelength = func_secondstoframes(5.5)
+		}
+		break
+		case "Alien Soldier": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(199,207,231)
+			
+			knockbackresistance = 0.5
+			defaultmovespeed = 2.1*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_amf_win
+			losesprite = spr_gijinka_amf_lose
+			portraitsprite = spr_horseportrait_amysteriousfigure
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_winjingle_amysteriousfigure
+			winsound = sfx_2kkidanmatuma
+			jinglelength = func_secondstoframes(6.15)
 		}
 		break
 		
