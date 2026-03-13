@@ -4,7 +4,7 @@ spawn_timer++
 
 if spawn_timer == time_to_spawn
 {
-	func_switchmusic(sfx_mu_gareggamarginal)
+	func_switchmusic(sfx_mu_gareggaerupter)
 }
 else if spawn_timer > time_to_spawn
 {
