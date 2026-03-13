@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":207.02147,
+  "duration":111.001,
   "exportDir":"",
   "name":"sfx_mu_lufia2battle3",
   "parent":{
