@@ -2465,7 +2465,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_dslite_win
 			winsound = sfx_bonk
-			jinglelength = func_secondstoframes(6.6)
+			jinglelength = func_secondstoframes(4)
 		}
 		break
 		case "Tire Delivery": 
@@ -2496,7 +2496,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_truckstop_win
 			winsound = sfx_nightmaretruckstophighway
-			jinglelength = func_secondstoframes(6.15)
+			jinglelength = func_secondstoframes(4.8)
 		}
 		break
 		case "Editor 3": 
@@ -2527,7 +2527,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_ed3_win
 			winsound = sfx_kyaaaa
-			jinglelength = func_secondstoframes(6.15)
+			jinglelength = func_secondstoframes(14)
 		}
 		break
 		case "Neon Vibrant Headache": 
@@ -2558,7 +2558,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_nvh_win
 			winsound = sfx_nvhwoow
-			jinglelength = func_secondstoframes(6.15)
+			jinglelength = func_secondstoframes(1.74)
 		}
 		break
 	}
