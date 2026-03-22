@@ -32,7 +32,7 @@ if func_placemeetingpath(x+hsp,y+vsp,obj_horseparent)
 	switch(_collidingobject.horseidentity) {
 		default:
 		{
-			if is_killing && round(random_range(1,8))==1
+			if is_killing && round(random_range(1,8))==1 && manager != noone
 			{
 				sprite_index=spr_gijinka_cerealbox_EAT
 				kill_time = 30
@@ -56,6 +56,8 @@ if func_placemeetingpath(x+hsp,y+vsp,obj_horseparent)
 				is_killing = false
 			}
 		}
+		break
+		case "All That Glitters":
 		break
 	}
 }

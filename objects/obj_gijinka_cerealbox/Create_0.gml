@@ -8,6 +8,11 @@ has_killed = false
 
 cooldown = 0        // TODO: IMPLEMENT THIS PROPERLY
 is_cooling = false  //       INSTEAD OF DOING WHATEVER SPAGHETTI SHIT YOU DID EARLIER
+manager = noone
+
+var _managerr = instance_find(obj_cerealboxmanager,0);
+if(_managerr!=noone) manager = _managerr;
+
 
 killing_x = x
 killing_y = y

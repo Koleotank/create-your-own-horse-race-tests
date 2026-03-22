@@ -7,7 +7,7 @@ if !hasloaded
 }
 else
 {
-	totalcount=instance_number(obj_horseparent)
+	totalcount=instance_number(obj_horseparent)-exceptioncount
 	count=instance_number(obj_gijinka_abn)
 	
 	if (count >= totalcount) wincondition = true
