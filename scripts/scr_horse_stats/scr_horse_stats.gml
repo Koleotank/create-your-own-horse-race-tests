@@ -2561,5 +2561,36 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(1.74)
 		}
 		break
+		case "Placid Fulfillment": 
+		{
+			eyeframeamount = 16
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = false
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(255,74,74)
+			
+			knockbackresistance = 0.5
+			defaultmovespeed = 1.8*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_placid_win
+			losesprite = spr_gijinka_placid_lose
+			portraitsprite = spr_horseportrait_placid
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_placid_win
+			winsound = sfx_macquack
+			jinglelength = func_secondstoframes(13.71)
+		}
+		break
 	}
 }
