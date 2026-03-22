@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_bonk",
+  "%Name":"sfx_kyaaaa",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.43208617,
+  "duration":1.2519954,
   "exportDir":"",
-  "name":"sfx_bonk",
+  "name":"sfx_kyaaaa",
   "parent":{
     "name":"sounds",
     "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_bonk.mp3",
-  "volume":0.8,
+  "soundFile":"sfx_kyaaaa.wav",
+  "volume":0.58,
 }

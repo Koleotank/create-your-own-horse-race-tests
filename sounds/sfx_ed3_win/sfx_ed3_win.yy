@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_bonk",
+  "%Name":"sfx_ed3_win",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.43208617,
+  "duration":14.000023,
   "exportDir":"",
-  "name":"sfx_bonk",
+  "name":"sfx_ed3_win",
   "parent":{
-    "name":"sounds",
-    "path":"folders/Sounds/win jingles/gijinkas/sounds.yy",
+    "name":"gijinkas",
+    "path":"folders/Sounds/win jingles/gijinkas.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_bonk.mp3",
+  "soundFile":"sfx_ed3_win.wav",
   "volume":0.8,
 }

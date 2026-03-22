@@ -2437,6 +2437,129 @@ function scr_horse_stats(_givenidentity,_room=room)
 			jinglelength = func_secondstoframes(6.6)
 		}
 		break
-		
+		case "Diet Soda Lite": 
+		{
+			eyeframeamount = 1
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 0
+			
+			bodycolor = make_color_rgb(185,122,87)
+			
+			knockbackresistance = -0.1
+			defaultmovespeed = 2.9*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -3
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 3
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_dslite_win
+			losesprite = spr_gijinka_dslite_lose
+			portraitsprite = spr_gijinkaportrait_dslite
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_dslite_win
+			winsound = sfx_bonk
+			jinglelength = func_secondstoframes(6.6)
+		}
+		break
+		case "Tire Delivery": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,107,107)
+			
+			knockbackresistance = 1
+			defaultmovespeed = 1.6*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_truckstop_win
+			losesprite = spr_gijinka_truckstop_lose
+			portraitsprite = spr_horseportrait_truckstophighway
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_truckstop_win
+			winsound = sfx_nightmaretruckstophighway
+			jinglelength = func_secondstoframes(6.15)
+		}
+		break
+		case "Editor 3": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(0,11,137)
+			
+			knockbackresistance = 0.1
+			defaultmovespeed = 2.5*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_ed3_win
+			losesprite = spr_gijinka_ed3_lose
+			portraitsprite = spr_horseportrait_ed3
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_ed3_win
+			winsound = sfx_kyaaaa
+			jinglelength = func_secondstoframes(6.15)
+		}
+		break
+		case "Neon Vibrant Headache": 
+		{
+			eyeframeamount = 8
+			spritemergedwitheyedirection = true
+			eyedirectionsmoveclockwise = true
+			firsteyeframe = 2
+			
+			bodycolor = make_color_rgb(61,203,255)
+			
+			knockbackresistance = 0.5
+			defaultmovespeed = 2*1.5
+			
+			overtimeaccelerationamount = 0;
+			accelerationamount = 0;
+			hasdasheffect = 0;
+			
+			//angleincrementdirectionmin = -2.5
+			angleincrementdirectionmin = -6
+			//angleincrementdirectionmax = 2.5
+			angleincrementdirectionmax = 6
+			anglechangechance = 1
+			
+			winsprite = spr_gijinka_nvh_win
+			losesprite = spr_gijinka_nvh_lose
+			portraitsprite = spr_horseportrait_nvh
+			portraitbgsprite = gijinka_winscreen
+			winjingle = sfx_nvh_win
+			winsound = sfx_nvhwoow
+			jinglelength = func_secondstoframes(6.15)
+		}
+		break
 	}
 }
