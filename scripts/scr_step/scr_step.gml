@@ -225,4 +225,11 @@ function scr_step()
 			event_user(0)
 		}
 	}
+	with obj_keyparent
+	{
+		if global.GAME_STATE == "normal"
+		{
+			event_user(0)
+		}
+	}
 }
