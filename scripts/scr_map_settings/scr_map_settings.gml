@@ -763,7 +763,7 @@ function scr_map_settings(argument0)
 		break
 		case rm_gijinka65:
 		{
-			func_switchmusic(sfx_mu_zerowingnewday)
+			func_switchmusic(sfx_mu_nal1200cryingsoul)
 			global.SHOW_TIMER = false
 			global.ANTI_COLLISION_MEASURE = "expensive"
 			global.OUT_OF_BOUNDS_MEASURE = "wrap"
