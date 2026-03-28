@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gijinka_truckstop",
+  "%Name":"obj_spineffect",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gijinka_truckstop",
+  "name":"obj_spineffect",
   "overriddenProperties":[],
   "parent":{
-    "name":"gijinkas",
-    "path":"folders/Objects/horses/gijinkas.yy",
+    "name":"misc",
+    "path":"folders/Objects/horses/gijinkas/misc.yy",
   },
-  "parentObjectId":{
-    "name":"obj_horseparent",
-    "path":"objects/obj_horseparent/obj_horseparent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gijinka_truckstop",
-    "path":"sprites/spr_gijinka_truckstop/spr_gijinka_truckstop.yy",
+    "name":"spr_null",
+    "path":"sprites/spr_null/spr_null.yy",
   },
   "spriteMaskId":null,
   "visible":true,

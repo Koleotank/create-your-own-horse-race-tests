@@ -2,5 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 
+cooldown = 0
+
 horseidentity = "Tire Delivery"
 scr_horse_stats(horseidentity)

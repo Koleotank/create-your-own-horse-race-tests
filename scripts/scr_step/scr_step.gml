@@ -232,4 +232,9 @@ function scr_step()
 			event_user(0)
 		}
 	}
+	with obj_spineffect
+	{
+		if global.GAME_STATE != "paused"
+			event_user(0)
+	}
 }
