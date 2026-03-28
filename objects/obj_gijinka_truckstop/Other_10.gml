@@ -15,7 +15,8 @@ else
 			{
 				audio_play_sound(sfx_punched,10,false)
 				var _throw = instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_spineffect)
-				_throw.timespeed = 0.1;
+				_throw.timespeed = 0.02;
+				_throw.sprite_index=_collidingobject.sprite_index;
 				_throw.owner = _collidingobject;
 				_throw.hold_x = _collidingobject.x;
 				_throw.hold_y = _collidingobject.y;

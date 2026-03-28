@@ -3,8 +3,8 @@
 
 image_angle = lerp(0,360,time)
 
-image_xscale = lerp(1,2,1-abs(1-time*2))
-image_yscale = lerp(1,2,1-abs(1-time*2))
+image_xscale = lerp(1,3,1-abs(1-time*2))
+image_yscale = lerp(1,3,1-abs(1-time*2))
 
 time += timespeed
 

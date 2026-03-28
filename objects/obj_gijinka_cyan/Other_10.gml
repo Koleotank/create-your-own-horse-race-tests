@@ -7,10 +7,21 @@ else
 	if place_meeting(x+hsp,y+vsp,obj_horseparent)
 	{
 		var _collidingobject = instance_place(x+hsp,y+vsp,obj_horseparent)
-		audio_play_sound(sfx_tasershock,10,false)
-		var _shocker = instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_tasershock)
-		_shocker.lifespan = 70;
-		_shocker.owner = _collidingobject;
-		cooldown = 40;
+		
+		switch(_collidingobject.horseidentity)
+		{
+			default: 
+			{
+				audio_play_sound(sfx_tasershock,10,false)
+				var _shocker = instance_create_depth(_collidingobject.x,_collidingobject.y,1,obj_tasershock)
+				_shocker.lifespan = 70;
+				_shocker.owner = _collidingobject;
+				cooldown = 40;
+			}
+			break;
+			case "Final Fantasy":
+			case "All That Glitters":
+			break;
+		}
 	}
 }

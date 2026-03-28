@@ -2558,7 +2558,7 @@ function scr_horse_stats(_givenidentity,_room=room)
 			portraitbgsprite = gijinka_winscreen
 			winjingle = sfx_nvh_win
 			winsound = sfx_nvhwoow
-			jinglelength = func_secondstoframes(1.74)
+			jinglelength = func_secondstoframes(3)
 		}
 		break
 		case "Placid Fulfillment": 
